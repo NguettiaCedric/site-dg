@@ -15,7 +15,7 @@ export default function Whychoose1() {
                             <div className="inner-column wow fadeInRight">
                                 <div className="sec-title">
                                     {/* <i className="sub-title">company benefits</i> */}
-                                    <h2>Why should choose our agency?</h2>
+                                    <h2>A propos</h2>
                                     <h4 className="other-title">Proin est lacus, sagittis lobortis iaculise get.</h4>
                                     <div className="text">There are many variations of passages of available but the majority have suffered. Alteration in some form, lipsum is simply free text by injected humou or randomised words even believable.</div>
                                     <span className="icon icon-arrow3" />
@@ -50,7 +50,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-laptop" />
-                                                <h5 className="title">Web <br />growths</h5>
+                                                <h5 className="title">Informatique <br /></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-graphic-design" />
-                                                <h5 className="title">Digital <br />solutions</h5>
+                                                <h5 className="title">Energie <br /> renouvelable</h5>
                                             </div>
                                         </div>
                                     </div>

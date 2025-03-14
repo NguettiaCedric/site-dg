@@ -14,7 +14,7 @@ export default function Menu() {
                 <li className="dropdown"><Link href="/page-services">Services</Link>
                     <ul>
                         <li><Link href="/page-services">Informatique</Link></li>
-                        <li><Link href="/page-services">Énergie solaire</Link></li>
+                        <li><Link href="/page-services">Énergie renouvelable</Link></li>
                         {/* <li><Link href="/page-service-details">Service Details</Link></li> */}
                     </ul>
                 </li>
