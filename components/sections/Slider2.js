@@ -45,7 +45,7 @@ export default function Slider1() {
                         </div>
                     </SwiperSlide>
                     {/* Slide Item */}
-                    {/* <SwiperSlide className="slide-item">
+                    <SwiperSlide className="slide-item">
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/solaire.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
@@ -55,9 +55,9 @@ export default function Slider1() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
                     <div className="owl-nav" style={{ zIndex: "999" }}>
-                        <div className="owl-prev h1p" style={{position: "absolute" , left: "0"}}>
+                        <div className="owl-prev h1p" style={{position:"absolute", left: "0px"}}>
                             <span className="fa fa-long-arrow-alt-left" />
                         </div>
                         <div className="owl-next h1n">

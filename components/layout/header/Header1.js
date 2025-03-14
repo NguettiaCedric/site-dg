@@ -32,7 +32,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                     </div>
                 </div>
                 {/* Header Top */}
-                <div className="header-lower">
+                <div className="header-lower" style={{background:" rgba(14, 14, 15, 0.2)" }}>
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">

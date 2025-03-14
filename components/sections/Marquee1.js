@@ -7,18 +7,18 @@ export default function Marquee1() {
             <div className="marquee-section">
                 <div className="marquee">
                     <div className="marquee-group">
-                        <div className="text">*Transofrm ideas into reality</div>
-                        <div className="text">*INSPIRED WITH CREATIVITY</div>
-                        <div className="text">*Design &amp; development craft</div>
-                        <div className="text">*unlock the potential</div>
-                        <div className="text">*Transofrm ideas into reality</div>
+                        <div className="text">*Informatique</div>
+                        <div className="text">*Energie renouvelable</div>
+                        <div className="text">*SAP Business One</div>
+                        <div className="text">*SAP RSM</div>
+                        <div className="text">*Farmsio</div>
                     </div>
                     <div aria-hidden="true" className="marquee-group">
-                        <div className="text">*Transofrm ideas into reality</div>
-                        <div className="text">*INSPIRED WITH CREATIVITY</div>
-                        <div className="text">*Design &amp; development craft</div>
-                        <div className="text">*unlock the potential</div>
-                        <div className="text">*Transofrm ideas into reality</div>
+                    <div className="text">*Informatique</div>
+                        <div className="text">*Energie renouvelable</div>
+                        <div className="text">*SAP Business One</div>
+                        <div className="text">*SAP RSM</div>
+                        <div className="text">*Farmsio</div>
                     </div>
                 </div>
             </div>
