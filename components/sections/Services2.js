@@ -32,14 +32,14 @@ export default function Services2() {
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/r1sm.png" alt="SAP RSM" /></figure>
+                                    <figure className="image"><img src="/images/resource/Odoo.png" alt="Odoo" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration  <br />SAP RSM</Link></h5>
+                                    <h5 className="title"><Link href="/page-service-details">Intégration <br/> Odoo</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />
-                                    <div className="text">La solution SAP RSM est essentielle pour piloter efficacement vos opérations ...</div>
+                                    <div className="text">Solution ERP complète et modulable qui centralise la gestion de votre entreprise...</div>
                                 </div>
                             </div>
                         </div>
@@ -62,6 +62,22 @@ export default function Services2() {
 
                     <div className="row">
                         {/* Service Block Two */}
+
+                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
+                                </div>
+                                <div className="title-box">
+                                    <h5 className="title"><Link href="/page-service-details">Intégration<br/>Divalto</Link></h5>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-graphic-design" />
+                                    <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
@@ -76,21 +92,7 @@ export default function Services2() {
                                 </div>
                             </div>
                         </div>
-                        {/* Service Block Two */}
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/formation.png" alt="formation"  /></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Formation SAP <br/>Conduite du changement</Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
-                                    <div className="text">Notre équipe d'experts certifiés SAP vous accompagne dans l'adoption réussie de vos solutions SAP Business One, SAP RSM ou SAP s/4 HANA.</div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
@@ -183,8 +185,24 @@ export default function Services2() {
                                     <h5 className="title"><Link href="/page-service-details">Accompagnement Digital<br/></Link></h5>
                                 </div>
                                 <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
+                                    <i className="icon flaticon-graphic-design"/>
                                     <div className="text">Nous vous accompagnons à travers la transition vers des solutions numériques.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Service Block Two */}
+                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/formation.png" alt="formation"  /></figure>
+                                </div>
+                                <div className="title-box">
+                                    <h5 className="title"><Link href="/page-service-details">Formation SAP <br/>Conduite du changement</Link></h5>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-graphic-design" />
+                                    <div className="text">Notre équipe d'experts certifiés SAP vous accompagne dans l'adoption réussie de vos solutions SAP Business One, SAP RSM ou SAP s/4 HANA.</div>
                                 </div>
                             </div>
                         </div>
