@@ -78,6 +78,14 @@ export default function Whychoose1() {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className="info-box col-lg-8 col-md-8">
+                                        <div className="inner">
+                                            <div className="title-box">
+                                                <i className="icon flaticon-teaching" />
+                                                <h5 className="title">Expert <br />developers</h5>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 {/* Icon  */}
                                 

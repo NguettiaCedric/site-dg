@@ -12,8 +12,8 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope" /> <Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                <li><i className="fa fa-map-marker" /> 88 Broklyn Golden Street. New York</li>
+                                <li><i className="fa fa-envelope" /> <Link href="/mailto:contact@koothe.com">contact@koothe.com</Link></li>
+                                <li><i className="fa fa-map-marker" />Abidjan Cocody Riviera triangle</li>
                             </ul>
                         </div>
                         <div className="top-right">
