@@ -3,7 +3,7 @@ import About1 from "@/components/sections/About1"
 import Services1 from "@/components/sections/Services1"
 import TeamInnerAbout from "@/components/sections/inner/TeamInnerAbout"
 import PageTitle from "@/components/sections/PageTitle"
-import NewsDetails from "@/components/sections/NewsDetails"
+import NewsDetails from "@/components/sections/inner/NewsDetails"
 export default function About3() {
     return (
         <>
