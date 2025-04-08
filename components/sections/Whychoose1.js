@@ -16,8 +16,8 @@ export default function Whychoose1() {
                                 <div className="sec-title">
                                     {/* <i className="sub-title">company benefits</i> */}
                                     <h2>A propos</h2>
-                                    <h4 className="other-title">Proin est lacus, sagittis lobortis iaculise get.</h4>
-                                    <div className="text">There are many variations of passages of available but the majority have suffered. Alteration in some form, lipsum is simply free text by injected humou or randomised words even believable.</div>
+                                    <h4 className="other-title">KOOTHE est une entreprise multisectorielle innovante,</h4>
+                                    <div className="text">engagée dans la création de solutions durables et performantes pour répondre aux enjeux économiques contemporains. Grâce à son expertise diversifiée, KOOTHE intervient dans plusieurs domaines stratégiques:</div>
                                     <span className="icon icon-arrow3" />
                                 </div>
 
@@ -50,7 +50,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-laptop" />
-                                                <h5 className="title">Informatique <br /></h5>
+                                                <h5 className="title">Technologie <br /></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-graphic-design" />
-                                                <h5 className="title">Energie <br /> renouvelable</h5>
+                                                <h5 className="title">Énergie</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -66,7 +66,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-health-check" />
-                                                <h5 className="title">Best <br />consultancy</h5>
+                                                <h5 className="title">Import-export</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-teaching" />
-                                                <h5 className="title">Expert <br />developers</h5>
+                                                <h5 className="title">BTP</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -82,7 +82,7 @@ export default function Whychoose1() {
                                         <div className="inner">
                                             <div className="title-box">
                                                 <i className="icon flaticon-teaching" />
-                                                <h5 className="title">Expert <br />developers</h5>
+                                                <h5 className="title">Conseil stratégique et opérationnel</h5>
                                             </div>
                                         </div>
                                     </div>
