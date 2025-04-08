@@ -1,5 +1,5 @@
 
-
+import Link from "next/link"
 export default function Whychoose1() {
     return (
         <>
@@ -81,6 +81,9 @@ export default function Whychoose1() {
                                 </div>
                                 {/* Icon  */}
                                 
+                            </div>
+                            <div className="btn-box animate-2" style={{marginTop:'11px', marginBottom:'-24px'}}>
+                                <Link href="/a-propos" className="theme-btn btn-style-one hover-light"><span className="btn-title">En savoir plus</span></Link>
                             </div>
                         </div>
                         {/* Image Column */}

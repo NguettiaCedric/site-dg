@@ -94,20 +94,20 @@ export default function Faqs() {
                                 <ul className="accordion-box wow fadeInRight">
                                     {/*Block*/}
                                     <li className="accordion block active-block">
-                                        <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(4)}> Qu'est-ce que SAP S/4HANA ?
+                                        <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(1)}> Qu'est-ce que SAP S/4HANA ?
                                             <div className="icon fa fa-plus" />
                                         </div>
-                                        <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
+                                        <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <div className="text">SAP S/4HANA est un logiciel ERP de nouvelle génération conçu pour les grandes entreprises. Il fonctionne sur la base de données en mémoire SAP HANA, offrant des performances optimisées et une gestion en temps réel des processus métier.</div>
                                             </div>
                                         </div>
                                     </li>
                                     <li className="accordion block active-block">
-                                        <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(1)}>Qu'est-ce que SAP Business One ?
+                                        <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(2)}>Qu'est-ce que SAP Business One ?
                                             <div className="icon fa fa-plus" />
                                         </div>
-                                        <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
+                                        <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <div className="text">SAP Business One est un logiciel de gestion intégré (ERP) conçu pour les petites et moyennes entreprises. Il aide à gérer les finances, les ventes, les stocks et d'autres processus métiers.</div>
                                             </div>
@@ -115,10 +115,10 @@ export default function Faqs() {
                                     </li>
                                     {/*Block*/}
                                     <li className="accordion block active-block">
-                                        <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(2)}>Qu'est-ce qu'un RSM ?
+                                        <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(3)}>Qu'est-ce qu'un RSM ?
                                             <div className="icon fa fa-plus" />
                                         </div>
-                                        <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
+                                        <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <div className="text">Une solution spécialement conçue pour les exploitations agricoles, cette solution de gestion intégrée vous offre une visibilité totale sur l'ensemble de vos activités.</div>
                                             </div>
@@ -126,10 +126,10 @@ export default function Faqs() {
                                     </li>
                                     {/*Block*/}
                                     <li className="accordion block active-block">
-                                        <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(3)}>Qu'est-ce que Farmsio ?
+                                        <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(4)}>Qu'est-ce que Farmsio ?
                                             <div className="icon fa fa-plus" />
                                         </div>
-                                        <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
+                                        <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
                                                 <div className="text">Farmsio est une solution numérique pour l’agriculture qui permet de suivre et optimiser la production agricole grâce à des outils technologiques.</div>
                                             </div>

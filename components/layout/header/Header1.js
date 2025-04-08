@@ -12,8 +12,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope text-white" /> <Link href="/mailto:test@gmail.com" className="text-white">test@gmail.com</Link></li>
-                                <li><i className="fa fa-map-marker text-white" /> <span className="text-white">Cocody Akouedo Ancien camp</span></li>
+                                <li><i className="fa fa-envelope text-white" /> <Link href="/mailto:test@gmail.com" className="text-white">contact@koothe.com</Link></li>
+                                <li><i className="fa fa-map-marker text-white" /> <span className="text-white">Abidjan Cocody Riviera triangle</span></li>
                             </ul>
                         </div>
                         <div className="top-right">
