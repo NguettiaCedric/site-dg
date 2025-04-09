@@ -26,8 +26,8 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="/page-services">Énergie</Link>
                             <ul>
-                                <li><Link href="/page-team-details">Énergies renouvelables</Link></li>
-                                <li><Link href="/page-team-details">Gestion carbone</Link></li>
+                                <li><Link href="/energie-renouvelable">Énergies renouvelables</Link></li>
+                                <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
                                 <li><Link href="/page-team-details">Projets solaires</Link></li>
                                 <li><Link href="/page-team-details">Solutions durables et éco-responsables</Link></li>
                             </ul>
@@ -46,7 +46,7 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="/page-services">BTP</Link>
                             <ul>
-                                <li><Link href="/page-team-details">Projets BTP : construction, rénovation, infrastructures                                </Link></li>
+                                <li><Link href="/btp">Projets BTP : construction, rénovation, infrastructures                                </Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
                                 <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
                                 <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
