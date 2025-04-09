@@ -17,10 +17,10 @@ export default function Menu() {
                             <ul>
                                 {/* <li><Link href="/page-team">Technologie</Link></li> */}
                                 <li><Link href="/erp"> ERP (Enterprise Resource Planning)</Link></li>
-                                <li><Link href="/page-team-details">Cybersécurité</Link></li>
-                                <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
-                                <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
-                                <li><Link href="/page-team-details">Développement d’applications sur mesure</Link></li>
+                                <li><Link href="/cybersecurite">Cybersécurité</Link></li>
+                                <li><Link href="/file-attente">Gestion de file d’attente</Link></li>
+                                <li><Link href="/tracabilite-agricole">Traçabilité agricole</Link></li>
+                                <li><Link href="/developpement-web-mobile">Développement d’applications sur mesure</Link></li>
                             </ul>
                         </li>
 

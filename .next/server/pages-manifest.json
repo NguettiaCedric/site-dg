@@ -2,7 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
+  "/page-team-details": "pages/page-team-details.js",
+  "/developpement-web-mobile": "pages/developpement-web-mobile.js",
   "/erp": "pages/erp.js",
-  "/page-services": "pages/page-services.js"
+  "/cybersecurite": "pages/cybersecurite.js",
+  "/file-attente": "pages/file-attente.js",
+  "/": "pages/index.js"
 }
