@@ -131,7 +131,7 @@ export default function AutreActivite() {
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/consulting-metier.png" alt="formation"  /></figure>
+                                    <figure className="image"><img src="/images/resource/materiel.jpg" alt="materiel"  /></figure>
                                 </div>
                                 <div className="title-box">
                                     <h5 className="title"><Link href="/page-service-details">Fourniture de tous types de matériels</Link></h5>
