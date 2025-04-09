@@ -13,24 +13,24 @@ export default function Footer1() {
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-phone-square" />
-                                    <span className="sub-title">Call Anytime</span>
-                                    <div className="text"><Link href="/tel:+92(8800)48720">+92 (8800) -89 8630</Link></div>
+                                    <span className="sub-title">Appelez </span>
+                                    <div className="text"><Link href="/tel:+92(8800)48720">+225 00 00 00 00 00</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-envelope" />
-                                    <span className="sub-title">Send Email</span>
-                                    <div className="text"><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></div>
+                                    <span className="sub-title">Email</span>
+                                    <div className="text"><Link href="/mailto:contact@koothe.com">contact@koothe.com</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
                             <div className="contact-info-block col-lg-4 col-md-6">
                                 <div className="inner">
                                     <i className="icon fa fa-map-marker" />
-                                    <span className="sub-title">Addres</span>
-                                    <div className="text">30 Broklyn Golden Street. USA</div>
+                                    <span className="sub-title">Adresse</span>
+                                    <div className="text">Abidjan Cocody Riviera triangle</div>
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,10 @@ export default function Footer1() {
                             <div className="footer-column col-xl-5 col-lg-4 col-md-12">
                                 <div className="footer-widget about-widget">
                                     <div className="widget-content">
-                                        <div className="logo"><Link href="/#"> <img src="/images/logo.png" alt="" /></Link></div>
-                                        <div className="text">Welcome to our digital agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</div>
+                                        {/* <div className="logo"><Link href="/#"> <img src="/images/logo.png" alt="" /></Link></div> */}
+                            <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div>
+
+                                        <div className="text">KOOTHE est une entreprise multisectorielle innovante,engagée dans la création de solutions durables et performantes.</div>
                                         <ul className="social-icon-two">
                                             <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>
                                             <li><Link href="/#"><i className="fab fa-facebook" /></Link></li>

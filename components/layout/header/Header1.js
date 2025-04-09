@@ -36,7 +36,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><img src="/images/logo.png" alt="" title="Tronis" /></Link></div>
+                            {/* <div className="logo"><Link href="/"><img src="/images/logo.png" alt="" title="Tronis" /></Link></div> */}
+                            <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div>
+
                         </div>
                         {/*Nav Box*/}
                         <div className="nav-outer">
@@ -66,7 +68,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt=""  /></Link></div>
+                            {/* <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt=""  /></Link></div> */}
+                            <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div>
+
                             <div className="close-btn" onClick={handleMobileMenu}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu />
@@ -124,7 +128,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/" ><img src="/images/logo-2.png" alt=""  /></Link>
+                                {/* <Link href="/" ><img src="/images/logo-2.png" alt=""  /></Link> */}
+                                <Link href="/" ><span className="text-black" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link>
+                            {/* <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div> */}
+
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">

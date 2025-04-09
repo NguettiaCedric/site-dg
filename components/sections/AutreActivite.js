@@ -146,7 +146,7 @@ export default function AutreActivite() {
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/dataAnalyse.png" alt="data Analyse"/></figure>
+                                    <figure className="image"><img src="/images/resource/mobilier-.jpg" alt="mobilier-"/></figure>
                                 </div>
                                 <div className="title-box">
                                     <h5 className="title"><Link href="/page-service-details">Mobiliers<br /></Link></h5>
@@ -164,7 +164,7 @@ export default function AutreActivite() {
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/Denree_Alimentaire.jpg" alt="Denree_Alimentaire" /></figure>
+                                    <figure className="image"><img src="/images/resource/Denree-1.jpg" alt="Denree_Alimentaire" /></figure>
                                 </div>
                                 <div className="title-box">
                                     <h5 className="title"><Link href="/page-service-details">Fourniture de <br/>denrées alimentaires</Link></h5>
