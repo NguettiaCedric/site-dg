@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/autre-secteurs-activte": [
+    "/erp": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/autre-secteurs-activte.js"
+      "static/chunks/pages/erp.js"
     ]
   },
   "ampFirstPages": []

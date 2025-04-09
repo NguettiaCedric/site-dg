@@ -16,7 +16,7 @@ export default function Menu() {
                         <li className="dropdown"><Link href="/page-services">Technologie</Link>
                             <ul>
                                 {/* <li><Link href="/page-team">Technologie</Link></li> */}
-                                <li><Link href="/page-team-details"> ERP (Enterprise Resource Planning)</Link></li>
+                                <li><Link href="/erp"> ERP (Enterprise Resource Planning)</Link></li>
                                 <li><Link href="/page-team-details">Cybersécurité</Link></li>
                                 <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
                                 <li><Link href="/page-team-details">Traçabilité agricole</Link></li>

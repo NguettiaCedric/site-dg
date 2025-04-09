@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/autre-secteurs-activte": "pages/autre-secteurs-activte.js"
+  "/erp": "pages/erp.js",
+  "/page-services": "pages/page-services.js"
 }
