@@ -129,7 +129,9 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/"><img src="/images/logo-2.png" alt="" /></Link>
+                                {/* <Link href="/"><img src="/images/logo-2.png" alt="" /></Link> */}
+                                <Link href="/" ><span className="text-black" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link>
+
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">

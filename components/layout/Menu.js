@@ -7,7 +7,7 @@ export default function Menu() {
         <>
             <ul className="navigation">
                 <li className=""><Link href="/">Accueil</Link></li>
-                <li className=""><Link href="/">A propos</Link></li>
+                <li className=""><Link href="/a-propos">A propos</Link></li>
 
 
 
@@ -26,16 +26,16 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="/page-services">Énergie</Link>
                             <ul>
-                                <li><Link href="/energie-renouvelable">Énergies renouvelables</Link></li>
-                                <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
-                                <li><Link href="/page-team-details">Projets solaires</Link></li>
-                                <li><Link href="/page-team-details">Solutions durables et éco-responsables</Link></li>
+                                <li><Link href="/energie">Énergies renouvelables</Link></li>
+                                <li><Link href="/energie">Gestion carbone</Link></li>
+                                <li><Link href="/energie">Projets solaires</Link></li>
+                                <li><Link href="/energie">Solutions durables et éco-responsables</Link></li>
                             </ul>
                         </li>
 
                         <li className="dropdown"><Link href="/page-services">Import-export</Link>
                             <ul>
-                                <li><Link href="/page-team-details">Activités d’import-export à l’international</Link></li>
+                                <li><Link href="/import-export">Activités d’import-export à l’international</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
                                 <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
                                 <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
@@ -56,7 +56,7 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="/page-services">Conseil stratégique et opérationnel</Link>
                             <ul>
-                                <li><Link href="/page-team-details">Conseil en stratégie, gestion de projet et transformation digitale</Link></li>
+                                <li><Link href="/conseil">Conseil en stratégie, gestion de projet et transformation digitale</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
                                 <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
                                 <li><Link href="/page-team-details">Traçabilité agricole</Link></li>

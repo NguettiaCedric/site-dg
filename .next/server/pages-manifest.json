@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/energie": "pages/energie.js",
+  "/import-export": "pages/import-export.js",
   "/": "pages/index.js",
-  "/autre-secteurs-activte": "pages/autre-secteurs-activte.js",
-  "/btp": "pages/btp.js"
+  "/autre-secteurs-activte": "pages/autre-secteurs-activte.js"
 }

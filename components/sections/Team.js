@@ -5,7 +5,7 @@ export default function Team() {
     return (
         <>
 
-            <section className="team-section pt-3">
+            <section className="team-section pt-1">
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         {/* <span className="sub-title">meet our team members</span> */}

@@ -14,21 +14,20 @@ export default function Tracability() {
                     </div>
                     <div className="row">
                         {/* Service Block Two */}
-
-                        {/* <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                        <div className=" news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/b1.png" alt="Business One" /></figure>
+                                    <figure className="image"><img src="/images/resource/formsio201_.png" alt="farmsio" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration SAP Business One</Link></h5>
+                                    <h5 className="title"><Link href="/page-service-details">Intégration Farmsio <br /></Link></h5>
                                 </div>
                                 <div className="content-box">
-                                    <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <i className="icon flaticon-technology" />
+                                    <div className="text">La solution de traçabilité agricole...</div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         {/* Service Block Two */}
                         

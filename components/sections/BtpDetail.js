@@ -26,7 +26,7 @@ export default function BtpDetail() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry ...</div>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function BtpDetail() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</div>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function BtpDetail() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</div>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ export default function BtpDetail() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</div>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ export default function BtpDetail() {
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</div>
                                 </div>
                             </div>
                         </div>

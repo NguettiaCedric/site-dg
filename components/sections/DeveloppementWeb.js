@@ -15,17 +15,18 @@ export default function DeveloppementWeb() {
                     <div className="row">
                         {/* Service Block Two */}
 
+                         
                         {/* <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/b1.png" alt="Business One" /></figure>
+                                    <figure className="image"><img src="/images/resource/dev-solution.png" alt="" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration SAP Business One</Link></h5>
+                                    <h5 className="title"><Link href="/page-service-details">Développement Web <br /></Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
-                                    <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
+                                    <div className="text">Découvrez notre service de développement web sur mesure, conçu pour transformer vos idées ...</div>
                                 </div>
                             </div>
                         </div> */}

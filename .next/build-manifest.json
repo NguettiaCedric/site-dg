@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/btp": [
+    "/autre-secteurs-activte": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/btp.js"
+      "static/chunks/pages/autre-secteurs-activte.js"
+    ],
+    "/energie": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/energie.js"
+    ],
+    "/import-export": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/import-export.js"
     ]
   },
   "ampFirstPages": []

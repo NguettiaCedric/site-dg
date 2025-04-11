@@ -22,27 +22,51 @@ export default function About2() {
                             <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                                 <div className="inner-column">
                                     <div className="sec-title">
-                                        <span className="sub-title">Welcome to Agency</span>
-                                        <h2>Leading the best digital agency in town</h2>
-                                        <div className="text">There are many variations of simply free text passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't slightly.</div>
+                                        <span className="sub-title">Bienvenue à KOOTHE</span>
+                                        <h2>Entreprise multisectorielle</h2>
+                                        <div className="text">engagée dans la création de solutions durables et performantes pour répondre aux enjeux
+                                             économiques contemporains. 
+                                            Grâce à son expertise diversifiée, KOOTHE intervient dans plusieurs domaines stratégiques :</div>
                                     </div>
                                     <div className="row">
                                         <div className="info-box col-lg-6 col-md-6">
                                             <div className="inner">
-                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Digital marketing</h5>
+                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Technologie</h5>
                                                 <div className="text">Knowledge of technologies rules better than anyone</div>
                                             </div>
                                         </div>
                                         <div className="info-box col-lg-6 col-md-6">
                                             <div className="inner">
-                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Quality results</h5>
+                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" />Énergie</h5>
+                                                <div className="text">Knowledge of technologies rules better than anyone</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="info-box col-lg-6 col-md-6">
+                                            <div className="inner">
+                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Import-export</h5>
+                                                <div className="text">Knowledge of technologies rules better than anyone</div>
+                                            </div>
+                                        </div>
+                                        <div className="info-box col-lg-6 col-md-6">
+                                            <div className="inner">
+                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" />BTP</h5>
+                                                <div className="text">Knowledge of technologies rules better than anyone</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="row">
+                                        <div className="info-box col-lg-6 col-md-6">
+                                            <div className="inner">
+                                                <h5 className="title"><i className="icon fa fa-circle-arrow-right" /> Conseil stratégique et opérationnel</h5>
                                                 <div className="text">Knowledge of technologies rules better than anyone</div>
                                             </div>
                                         </div>
                                     </div>
                                     {/*Skills*/}
-                                    <div className="skills">
-                                        {/*Skill Item*/}
+
+                                    {/* <div className="skills">
                                         <div className="skill-item">
                                             <div className="skill-header">
                                                 <h5 className="skill-title">Marketing</h5>
@@ -60,10 +84,11 @@ export default function About2() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="bottom-box">
+                                    </div> */}
+
+                                    {/* <div className="bottom-box">
                                         <Link href="/page-about" className="theme-btn btn-style-one hvr-dark"><span className="btn-title">Discover more</span></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* Image Column */}
@@ -73,13 +98,13 @@ export default function About2() {
                                         <span className="icon-dots2" />
                                         <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about2-1.jpg" alt="" /></figure>
                                         <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about2-2.jpg" alt="" /></figure>
-                                        <div className="exp-box">
+                                        {/* <div className="exp-box">
                                             <div className="inner">
                                                 <i className="icon flaticon-promotion" />
                                                 <span className="count">38+</span>
                                                 <h6 className="title">Work Experience</h6>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
