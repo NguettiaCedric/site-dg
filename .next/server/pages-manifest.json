@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/energie": "pages/energie.js",
-  "/import-export": "pages/import-export.js",
   "/": "pages/index.js",
+  "/conseil": "pages/conseil.js",
   "/autre-secteurs-activte": "pages/autre-secteurs-activte.js"
 }
