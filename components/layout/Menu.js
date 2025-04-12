@@ -26,10 +26,10 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="/page-services">Énergie</Link>
                             <ul>
-                                <li><Link href="/energie">Énergies renouvelables</Link></li>
-                                <li><Link href="/energie">Gestion carbone</Link></li>
-                                <li><Link href="/energie">Projets solaires</Link></li>
-                                <li><Link href="/energie">Solutions durables et éco-responsables</Link></li>
+                                <li><Link href="/energie-renouvelable">Énergies renouvelables</Link></li>
+                                <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
+                                <li><Link href="/page-team-details">Projets solaires</Link></li>
+                                <li><Link href="/page-team-details">Solutions durables et éco-responsables</Link></li>
                             </ul>
                         </li>
 
@@ -46,7 +46,7 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="/page-services">BTP</Link>
                             <ul>
-                                <li><Link href="/btp">Projets BTP : construction, rénovation, infrastructures                                </Link></li>
+                                <li><Link href="/btp">Projets BTP : construction, rénovation, infrastructures</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
                                 <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
                                 <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
@@ -86,6 +86,7 @@ export default function Menu() {
 
                 {/* <li className=""><Link href="/autre-secteurs-activte">Autre Secteurs d’Activité</Link></li>                  */}
                 <li className=""><Link href="/">Projets Realisés</Link></li>
+                <li className=""><Link href="">Blog</Link></li>
                 <li className=""><Link href="/">FAQ</Link> </li>
                 {/* <li className="dropdown"><Link href="/page-projects">Projects</Link>
                     <ul>

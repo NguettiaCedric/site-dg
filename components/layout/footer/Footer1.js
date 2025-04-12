@@ -14,7 +14,7 @@ export default function Footer1() {
                                 <div className="inner">
                                     <i className="icon fa fa-phone-square" />
                                     <span className="sub-title">Appelez </span>
-                                    <div className="text"><Link href="/tel:+92(8800)48720">+225 00 00 00 00 00</Link></div>
+                                    <div className="text"><Link href="/tel:+92(8800)48720">+225 07 07 17 04 07</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
@@ -22,7 +22,7 @@ export default function Footer1() {
                                 <div className="inner">
                                     <i className="icon fa fa-envelope" />
                                     <span className="sub-title">Email</span>
-                                    <div className="text"><Link href="/mailto:contact@koothe.com">contact@koothe.com</Link></div>
+                                    <div className="text"><Link href="/mailto:contact@koothe.com">infokoothe@gmail.com</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
@@ -45,7 +45,9 @@ export default function Footer1() {
                                 <div className="footer-widget about-widget">
                                     <div className="widget-content">
                                         {/* <div className="logo"><Link href="/#"> <img src="/images/logo.png" alt="" /></Link></div> */}
-                            <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div>
+                                        {/* <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div> */}
+                                        <div className="logo"><Link href="/"><img src="/images/logo-.png" alt="" title="Tronis" style={{height:"70px"}} /></Link></div>
+
 
                                         <div className="text">KOOTHE est une entreprise multisectorielle innovante,engagée dans la création de solutions durables et performantes.</div>
                                         <ul className="social-icon-two">
@@ -101,7 +103,7 @@ export default function Footer1() {
                 {/*  Footer Bottom */}
                 <div className="footer-bottom">
                     <div className="auto-container">
-                        <div className="copyright-text">© Copyright reserved by <Link href="/#">kodesolution.com</Link></div>
+                        <div className="copyright-text">© Copyright reserved by Cedric N'GUETTIA <Link href="/#">attanguettiacedric.com</Link></div>
                     </div>
                 </div>
             </footer>

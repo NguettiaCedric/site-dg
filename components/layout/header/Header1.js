@@ -12,8 +12,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope text-white" /> <Link href="/mailto:contact@koothe.com" className="text-white">contact@koothe.com</Link></li>
-                                <li><i className="fa fa-map-marker text-white" /> <span className="text-white">Abidjan Cocody Riviera triangle</span></li>
+                                <li><i className="fa fa-envelope" style={{color:"#1C4E97"}}/> <Link href="/mailto:contact@koothe.com" className="text-white">contact@koothe.com</Link></li>
+                                <li><i className="fa fa-map-marker"  style={{color:"#1C4E97"}}/> <span className="text-white">Abidjan Cocody Riviera triangle</span></li>
                             </ul>
                         </div>
                         <div className="top-right">
@@ -23,21 +23,21 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 <li><Link href="/#">Contact</Link></li>
                             </ul> */}
                             <ul className="social-icon-one">
-                                <li><Link href="/#"><span className="fab fa-twitter" /></Link></li>
-                                <li><Link href="/#"><span className="fab fa-facebook-square" /></Link></li>
+                                <li><Link href="/#"><span className="fab fa-twitter"  style={{color:"#1C4E97"}} /></Link></li>
+                                <li><Link href="/#"><span className="fab fa-facebook-square"  style={{color:"#1C4E97"}} /></Link></li>
                                 {/* <li><Link href="/#"><span className="fab fa-pinterest-p" /></Link></li> */}
-                                <li><Link href="/#"><span className="fab fa-instagram" /></Link></li>
+                                {/* <li><Link href="/#"><span className="fab fa-instagram" /></Link></li> */}
                             </ul>
                         </div>
                     </div>
                 </div>
                 {/* Header Top */}
-                <div className="header-lower" style={{background:" rgba(14, 14, 15, 0.2)" }}>
+                <div className="header-lower" style={{background:" rgba(13, 13, 30, 0.9)" }}>
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            {/* <div className="logo"><Link href="/"><img src="/images/logo.png" alt="" title="Tronis" /></Link></div> */}
-                            <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div>
+                            <div className="logo"><Link href="/"><img src="/images/logo-.png" alt="" title="Tronis" style={{height:"70px"}} /></Link></div>
+                            {/* <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div> */}
 
                         </div>
                         {/*Nav Box*/}
@@ -54,8 +54,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             </button>
                             <Link href="/tel:+92(8800)9806" className="info-btn">
                                 <i className="icon lnr-icon-phone-handset" />
-                                <small>Call Anytime</small>
-                                +92 (8800) - 9850
+                                <small>Appelez</small>
+                                +225 07 07 17 04 07
                             </Link>
                             {/* Mobile Nav toggler */}
                             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
@@ -69,7 +69,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                     <nav className="menu-box">
                         <div className="upper-box">
                             {/* <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt=""  /></Link></div> */}
-                            <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div>
+                            {/* <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div> */}
+                            <div className="logo"><Link href="/"><img src="/images/logo-.png" alt="" title="Tronis" style={{height:"70px"}} /></Link></div>
+
 
                             <div className="close-btn" onClick={handleMobileMenu}><i className="icon fa fa-times" /></div>
                         </div>
@@ -129,7 +131,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             {/*Logo*/}
                             <div className="logo">
                                 {/* <Link href="/" ><img src="/images/logo-2.png" alt=""  /></Link> */}
-                                <Link href="/" ><span className="text-black" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link>
+                                {/* <Link href="/" ><span className="text-black" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link> */}
+                               <div className="logo"><Link href="/"><img src="/images/logo-.png" alt="" title="Tronis" style={{height:"95px"}} /></Link></div>
+
                             {/* <div className="title"><Link href="/"><span className="text-white" style={{ fontWeight: 'bold' , fontSize:'24px' }}>KOOTHE</span></Link></div> */}
 
                             </div>
