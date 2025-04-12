@@ -103,7 +103,7 @@ export default function Footer1() {
                 {/*  Footer Bottom */}
                 <div className="footer-bottom">
                     <div className="auto-container">
-                        <div className="copyright-text">© Copyright reserved by Cedric N'GUETTIA <Link href="/#">attanguettiacedric.com</Link></div>
+                        <div className="copyright-text">© Copyright reserved by KOOTHE <Link href="/#"></Link></div>
                     </div>
                 </div>
             </footer>

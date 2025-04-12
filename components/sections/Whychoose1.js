@@ -16,7 +16,7 @@ export default function Whychoose1() {
                                 <div className="sec-title">
                                     {/* <i className="sub-title">company benefits</i> */}
                                     <h2>A propos</h2>
-                                    <h4 className="other-title">KOOTHE est une entreprise multisectorielle innovante,</h4>
+                                    <h4 className="other-title" style={{color:"#1C4E97"}}>KOOTHE est une entreprise multisectorielle innovante,</h4>
                                     <div className="text">engagée dans la création de solutions durables et performantes pour répondre aux enjeux économiques contemporains. Grâce à son expertise diversifiée, KOOTHE intervient dans plusieurs domaines stratégiques:</div>
                                     <span className="icon icon-arrow3" />
                                 </div>
