@@ -3,5 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/autre-secteurs-activte": "pages/autre-secteurs-activte.js"
+  "/import-export": "pages/import-export.js",
+  "/energie-renouvelable": "pages/energie-renouvelable.js",
+  "/page-service-details": "pages/page-service-details.js"
 }

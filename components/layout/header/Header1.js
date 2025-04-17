@@ -12,8 +12,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope" style={{color:"#1C4E97"}}/> <Link href="/mailto:contact@koothe.com" className="text-white">contact@koothe.com</Link></li>
-                                <li><i className="fa fa-map-marker"  style={{color:"#1C4E97"}}/> <span className="text-white">Abidjan Cocody Riviera triangle</span></li>
+                                <li><i className="fa fa-envelope" style={{color:"#1C4E97"}}/> <Link href="/mailto:info@koothe.com" className="text-white">info@koothe.com</Link></li>
+                                <li><i className="fa fa-map-marker"  style={{color:"#1C4E97"}}/> <span className="text-white">Localisation Riviera 3 triangle</span></li>
                             </ul>
                         </div>
                         <div className="top-right">

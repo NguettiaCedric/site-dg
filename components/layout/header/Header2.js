@@ -12,8 +12,8 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                         <div className="top-left">
                             {/* Info List */}
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope" style={{color:"#1C4E97"}} /> <Link className="text-white" href="/mailto:contact@koothe.com">infokoothe@gmail.com</Link></li>
-                                <li><i className="fa fa-map-marker" style={{color:"#1C4E97"}} /><span className="text-white">Abidjan Cocody Riviera triangle</span></li>
+                                <li><i className="fa fa-envelope" style={{color:"#1C4E97"}} /> <Link className="text-white" href="/mailto:info@koothe.com">info@koothe.com</Link></li>
+                                <li><i className="fa fa-map-marker" style={{color:"#1C4E97"}} /><span className="text-white">Localisation Riviera 3 triangle</span></li>
                             </ul>
                         </div>
                         <div className="top-right">
@@ -57,8 +57,8 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                             </button>
                             <Link href="/tel:+92(8800)9806" className="info-btn">
                                 <i className="icon lnr-icon-phone-handset" />
-                                <small>Appelez</small>
-                                +225 07 07 17 04  07
+                                <small>Contact</small>
+                                +225 0706065406 / <br/>+225 0594310375 
                             </Link>
                             {/* Mobile Nav toggler */}
                             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
@@ -84,16 +84,16 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
-                                    <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <span className="title">Contact</span>
+                                    <Link href="/tel:+92880098670">+225 0706065406 / <br/>+225 0594310375 </Link>
                                 </div>
                             </li>
                             <li>
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
-                                    <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <span className="title">Email</span>
+                                    <Link href="/mailto:info@koothe.com">info@koothe.com</Link>
                                 </div>
                             </li>
                             <li>

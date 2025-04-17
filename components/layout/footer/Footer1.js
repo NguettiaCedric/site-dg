@@ -14,7 +14,7 @@ export default function Footer1() {
                                 <div className="inner">
                                     <i className="icon fa fa-phone-square" />
                                     <span className="sub-title">Appelez </span>
-                                    <div className="text"><Link href="/tel:+92(8800)48720">+225 07 07 17 04 07</Link></div>
+                                    <div className="text"><Link href="/tel:+225 07 07 17 04 07">+225 0706065406 / <br/>+225 0594310375 </Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
@@ -22,7 +22,7 @@ export default function Footer1() {
                                 <div className="inner">
                                     <i className="icon fa fa-envelope" />
                                     <span className="sub-title">Email</span>
-                                    <div className="text"><Link href="/mailto:contact@koothe.com">infokoothe@gmail.com</Link></div>
+                                    <div className="text"><Link href="/mailto:info@koothe.com">info@koothe.com</Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
@@ -30,7 +30,7 @@ export default function Footer1() {
                                 <div className="inner">
                                     <i className="icon fa fa-map-marker" />
                                     <span className="sub-title">Adresse</span>
-                                    <div className="text">Abidjan Cocody Riviera triangle</div>
+                                    <div className="text">Localisation Riviera 3 triangle</div>
                                 </div>
                             </div>
                         </div>
@@ -53,8 +53,8 @@ export default function Footer1() {
                                         <ul className="social-icon-two">
                                             <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>
                                             <li><Link href="/#"><i className="fab fa-facebook" /></Link></li>
-                                            <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li>
-                                            <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
+                                            {/* <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li> */}
+                                            {/* <li><Link href="/#"><i className="fab fa-instagram" /></Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -62,17 +62,17 @@ export default function Footer1() {
                             {/* Footer COlumn */}
                             <div className="footer-column col-xl-4 col-lg-4 col-md-6">
                                 <div className="widget links-widget">
-                                    <h5 className="widget-title">Explore</h5>
+                                    <h5 className="widget-title">Solutions</h5>
                                     <div className="widget-content">
                                         <ul className="user-links two-column">
-                                            <li><Link href="/#">Meet Our Team</Link></li>
-                                            <li><Link href="/#">About</Link></li>
-                                            <li><Link href="/#">What We Do</Link></li>
-                                            <li><Link href="/#">Support</Link></li>
-                                            <li><Link href="/#">Latest News</Link></li>
-                                            <li><Link href="/#">New Projects</Link></li>
-                                            <li><Link href="/#">Contact</Link></li>
-                                            <li><Link href="/#">Shop</Link></li>
+                                            <li><Link href="/#">SAP Business One</Link></li>
+                                            <li><Link href="/#">Odoo</Link></li>
+                                            <li><Link href="/#">Farmsio</Link></li>
+                                            <li><Link href="/#">Divalto</Link></li>
+                                            <li><Link href="/#">BTP</Link></li>
+                                            <li><Link href="/#">Import-Export</Link></li>
+                                            <li><Link href="/#">Energie</Link></li>
+                                            <li><Link href="/#">Conseil stratégique</Link></li>
                                             <li><Link href="/#">Faqs</Link></li>
                                         </ul>
                                     </div>

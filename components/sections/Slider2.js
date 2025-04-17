@@ -37,7 +37,7 @@ export default function Slider1() {
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/Hévéa.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box" style={{marginTop: "-5px", paddingLeft: "43px"}}>
-                                <h1 className="title animate-1">Shaping the <br />Perfect Solution <br />for your business</h1>
+                                <h1 className="title animate-1">Optimisez vos processus métiers grâce à des solutions ERP sur mesure,<br/> pensées pour la performance et l’agilité</h1>
                                 <div className="btn-box animate-2" style={{paddingLeft: "6px"}}>
                                     <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En Savoir plus</span></Link>
                                 </div>
@@ -49,7 +49,7 @@ export default function Slider1() {
                         <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/solaire.jpg)' }} />
                         <div className="auto-container">
                             <div className="content-box">
-                                <h1 className="title animate-1">Shaping the <br />Perfect Solution <br />for your business</h1>
+                                <h1 className="title animate-1"> Protégez vos données, sécurisez vos opérations. La cybersécurité est notre priorité<br /></h1>
                                 <div className="btn-box animate-2">
                                     <Link href="/page-about" className="theme-btn btn-style-one hover-light"><span className="btn-title">En Savoir plus</span></Link>
                                 </div>

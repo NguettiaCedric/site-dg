@@ -727,7 +727,7 @@ li {
   width: 150px;
   margin-left: -75px;
   margin-top: -30px;
-  height: 50px;
+  height: 100px;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite linear;
@@ -2043,10 +2043,17 @@ Scroll To Top style
   background-image: url(../images/icons/icon-arrow2.png);
 }
 
-.icon-arrow3 {
+/* .icon-arrow3 {
   width: 45px;
   height: 62px;
   background-image: url(../images/icons/icon-arrow3.png);
+} */
+
+
+.icon-arrow3_1 {
+  width: 45px;
+  height: 62px;
+  background-image: url(../images/icons/icon-arrow3_1.png);
 }
 
 .icon-speaker {
@@ -3693,9 +3700,11 @@ Section Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/main-slider/shape.png);
+  background-image: url(../images/main-slider/shape_.png);
   content: "";
 }
+
+
 .banner-section .content-box {
   position: relative;
   padding: 300px 0 120px;
