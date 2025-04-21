@@ -13,7 +13,7 @@ export default function Menu() {
 
                 <li className="dropdown"><Link href="/page-about">Nos Secteurs d’Activité</Link>
                     <ul>
-                        <li className="dropdown"><Link href="/page-services">Technologie</Link>
+                        <li className="dropdown"><Link href="">Technologie</Link>
                             <ul>
                                 {/* <li><Link href="/page-team">Technologie</Link></li> */}
                                 <li><Link href="/erp"> ERP (Enterprise Resource Planning)</Link></li>
@@ -24,16 +24,16 @@ export default function Menu() {
                             </ul>
                         </li>
 
-                        <li className="dropdown"><Link href="/page-services">Énergie</Link>
+                        <li className="dropdown"><Link href="">Énergie</Link>
                             <ul>
                                 <li><Link href="/energie-renouvelable">Énergies renouvelables</Link></li>
                                 <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
-                                <li><Link href="/page-team-details">Projets solaires</Link></li>
-                                <li><Link href="/page-team-details">Solutions durables et éco-responsables</Link></li>
+                                <li><Link href="/projets-solaires">Projets solaires</Link></li>
+                                <li><Link href="/solutions-durables-eco-responsables">Solutions durables et éco-responsables</Link></li>
                             </ul>
                         </li>
 
-                        <li className="dropdown"><Link href="/page-services">Import-export</Link>
+                        <li className="dropdown"><Link href="">Import-export</Link>
                             <ul>
                                 <li><Link href="/import-export">Activités d’import-export à l’international</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
@@ -44,7 +44,7 @@ export default function Menu() {
                         </li>
 
 
-                        <li className="dropdown"><Link href="/page-services">BTP</Link>
+                        <li className="dropdown"><Link href="">BTP</Link>
                             <ul>
                                 <li><Link href="/btp">Projets BTP : construction, rénovation, infrastructures</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
@@ -54,7 +54,7 @@ export default function Menu() {
                             </ul>
                         </li>
 
-                        <li className="dropdown"><Link href="/page-services">Conseil stratégique et opérationnel</Link>
+                        <li className="dropdown"><Link href="">Conseil stratégique et opérationnel</Link>
                             <ul>
                                 <li><Link href="/conseil">Conseil en stratégie, gestion de projet et transformation digitale</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
@@ -86,7 +86,7 @@ export default function Menu() {
 
                 {/* <li className=""><Link href="/autre-secteurs-activte">Autre Secteurs d’Activité</Link></li>                  */}
                 <li className=""><Link href="/">Projets Realisés</Link></li>
-                <li className=""><Link href="">Blog</Link></li>
+                <li className=""><Link href="/blog">Blog</Link></li>
                 <li className=""><Link href="/">FAQ</Link> </li>
                 {/* <li className="dropdown"><Link href="/page-projects">Projects</Link>
                     <ul>

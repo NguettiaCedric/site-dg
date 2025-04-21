@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/gestion-carbone": "pages/gestion-carbone.js",
   "/": "pages/index.js",
-  "/import-export": "pages/import-export.js",
-  "/energie-renouvelable": "pages/energie-renouvelable.js",
-  "/page-service-details": "pages/page-service-details.js"
+  "/blog": "pages/blog.js"
 }
