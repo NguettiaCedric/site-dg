@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/gestion-carbone": "pages/gestion-carbone.js",
-  "/": "pages/index.js",
-  "/blog": "pages/blog.js"
+  "/erp": "pages/erp.js",
+  "/solution-odoo": "pages/solution-odoo.js",
+  "/solution-alfresco": "pages/solution-alfresco.js"
 }
