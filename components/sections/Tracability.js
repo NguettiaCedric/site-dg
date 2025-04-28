@@ -15,18 +15,20 @@ export default function Tracability() {
                     <div className="row">
                         {/* Service Block Two */}
                         <div className=" news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/formsio201_.png" alt="farmsio" /></figure>
+                            <Link href="/solution-tracabilite-agricole">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><img src="/images/resource/formsio201_.png" alt="farmsio" /></figure>
+                                    </div>
+                                    <div className="title-box">
+                                        <h5 className="title"><Link href="/solution-tracabilite-agricole">Intégration Farmsio <br /></Link></h5>
+                                    </div>
+                                    <div className="content-box">
+                                        <i className="icon flaticon-technology" />
+                                        <div className="text">La solution de traçabilité agricole...</div>
+                                    </div>
                                 </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration Farmsio <br /></Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-technology" />
-                                    <div className="text">La solution de traçabilité agricole...</div>
-                                </div>
-                            </div>
+                            </Link>
                         </div>
 
                         {/* Service Block Two */}

@@ -10,7 +10,7 @@ export default function ImportExp() {
                 <div className="auto-container">
                     <div className="sec-title text-center black">
                         {/* <span className="sub-title">Découvrez</span> */}
-                        <h2>Expertise - BTP<br/></h2>
+                        <h2>Expertise - Import-Export<br/></h2>
                     </div>
                     
                     <div className="row">

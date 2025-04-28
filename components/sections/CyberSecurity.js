@@ -16,18 +16,20 @@ export default function CyberSecurity() {
                     <div className="row">
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/cyberSecurity.png" alt="Cyber sécurité" /></figure>
+                            <Link href="/solution-cybersecurite">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><img src="/images/resource/cyberSecurity.png" alt="Cyber sécurité" /></figure>
+                                    </div>
+                                    <div className="title-box">
+                                        <h5 className="title"><Link href="/solution-cybersecurite">Cybersécurité<br /></Link></h5>
+                                    </div>
+                                    <div className="content-box">
+                                        <i className="icon flaticon-digital-services" />
+                                        <div className="text">Notre équipe de spécialistes en sécurité du numérique vous accompagne dans la protection optimale de vos actifs immatériels</div>
+                                    </div>
                                 </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Cybersécurité<br /></Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-digital-services" />
-                                    <div className="text">Notre équipe de spécialistes en sécurité du numérique vous accompagne dans la protection optimale de vos actifs immatériels</div>
-                                </div>
-                            </div>
+                            </Link>
                         </div>
 
                         {/* Service Block Two */}

@@ -22,15 +22,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/erp": [
+    "/autre-secteurs-activte": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/erp.js"
+      "static/chunks/pages/autre-secteurs-activte.js"
     ],
-    "/solution-divalto": [
+    "/btp": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/solution-divalto.js"
+      "static/chunks/pages/btp.js"
+    ],
+    "/file-attente": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/file-attente.js"
     ]
   },
   "ampFirstPages": []
