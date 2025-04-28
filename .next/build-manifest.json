@@ -27,10 +27,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/erp.js"
     ],
+    "/sap-business-one": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sap-business-one.js"
+    ],
     "/solution-alfresco": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/solution-alfresco.js"
+    ],
+    "/solution-odoo": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/solution-odoo.js"
+    ],
+    "/solution-sage-x3": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/solution-sage-x3.js"
     ]
   },
   "ampFirstPages": []

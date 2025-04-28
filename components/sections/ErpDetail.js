@@ -50,16 +50,18 @@ export default function ErpDetail() {
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration<br/>SAGE X3</Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
-                                    <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
-                                </div>
+                               <Link href="/solution-sage-x3">
+                                    <div className="image-box">
+                                        <figure className="image"><img src="/images/resource/sageX3-1.png" alt="Divalto" /></figure>
+                                    </div>
+                                    <div className="title-box">
+                                        <h5 className="title"><Link href="/solution-sage-x3">Intégration<br/>SAGE X3</Link></h5>
+                                    </div>
+                                    <div className="content-box">
+                                        <i className="icon flaticon-graphic-design" />
+                                        <div className="text">Gérez votre entreprise avec des fonctionnalités puissantes qui vous permettent de travailler...</div>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -67,21 +69,21 @@ export default function ErpDetail() {
                     <div className="row">
                         {/* Service Block Two */}
                         {/* <Link href="/sap-business-one"> */}
-                            <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
-                                    </div>
-                                    <div className="title-box">
-                                        <h5 className="title"><Link href="/news-details">Intégration<br/>Divalto</Link></h5>
-                                        {/* <h5 className="title"><Link href="/GED-details">ALFRESCO<br/></Link></h5> */}
-                                    </div>
-                                    <div className="content-box">
-                                        <i className="icon flaticon-graphic-design" />
-                                        <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
-                                    </div>
+                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
+                                </div>
+                                <div className="title-box">
+                                    <h5 className="title"><Link href="/news-details">Intégration<br/>Divalto</Link></h5>
+                                    {/* <h5 className="title"><Link href="/GED-details">ALFRESCO<br/></Link></h5> */}
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-graphic-design" />
+                                    <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
                                 </div>
                             </div>
+                        </div>
                         {/* </Link> */}
                         {/* Service Block Two */}
 
@@ -89,7 +91,7 @@ export default function ErpDetail() {
                             <Link href="/solution-alfresco">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
+                                        <figure className="image"><img src="/images/resource/alfresco-3.jpg" alt="Divalto" /></figure>
                                     </div>
                                     <div className="title-box">
                                         <h5 className="title"><Link href="/solution-alfresco">ALFRESCOl / GED  GED et d'archivage<br/></Link></h5>
