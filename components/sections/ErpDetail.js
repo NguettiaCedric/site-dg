@@ -70,12 +70,13 @@ export default function ErpDetail() {
                         {/* Service Block Two */}
                         {/* <Link href="/sap-business-one"> */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                        <Link href="/solution-divalto">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/news-details">Intégration<br/>Divalto</Link></h5>
+                                    <h5 className="title"><Link href="/solution-divalto">Intégration<br/>Divalto</Link></h5>
                                     {/* <h5 className="title"><Link href="/GED-details">ALFRESCO<br/></Link></h5> */}
                                 </div>
                                 <div className="content-box">
@@ -83,8 +84,8 @@ export default function ErpDetail() {
                                     <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
                                 </div>
                             </div>
+                        </Link>
                         </div>
-                        {/* </Link> */}
                         {/* Service Block Two */}
 
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">

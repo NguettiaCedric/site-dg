@@ -296,57 +296,25 @@ export default function Sagex3Detail() {
                 </div>
               </div>
 
-              {/* <div className="col-xl-6 col-lg-6 col-md-6 mt-0">
+              <div className="col-xl-6 col-lg-6 col-md-6 mt-0">
                 <div className="team-details__top-left">
                   <div className="team-details__top-content">
-                    <h3 className="">Gestion de la chaîne logistique</h3>
+                    <h3 className="">
+                      Découvrez la puissance de Sage X3 dans le cloud
+                    </h3>
                     <p>
-                      Le contrôle des stocks en temps réel vous permet de
-                      répondre à la demande et de conserver une longueur
-                      d'avance.
+                      Découvrez la puissance de Sage X3 dans le cloud, en toute
+                      sécurité, avec Sage Service Cloud. Utilisez une solution
+                      unique pour bénéficier d'une visibilité en temps réel sur
+                      l'ensemble de votre activité. Gérez de manière fluide
+                      chaque étape des processus complexes, de la chaîne
+                      logistique aux ventes. Disposez de la flexibilité dont
+                      vous avez besoin pour décupler le potentiel de votre
+                      entreprise.
                     </p>
-                    <img src="images/resource/odoo-6.jpg" alt="Odoo" />
-                    <div className="info-box mt-3">
-                      <div className="inner">
-                        <h5 className="title">
-                          <i className="icon fa fa-circle-check" /> Achats{" "}
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="info-box mt-3">
-                      <div className="inner">
-                        <h5 className="title">
-                          <i className="icon fa fa-circle-check" /> Gestion des
-                          stocks{" "}
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="info-box mt-3">
-                      <div className="inner">
-                        <h5 className="title">
-                          <i className="icon fa fa-circle-check" /> Gestion des
-                          ventes{" "}
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="info-box mt-3">
-                      <div className="inner">
-                        <h5 className="title">
-                          <i className="icon fa fa-circle-check" /> Service
-                          client{" "}
-                        </h5>
-                      </div>
-                    </div>
-                    <div className="info-box mt-3">
-                      <div className="inner">
-                        <h5 className="title">
-                          <i className="icon fa fa-circle-check" /> Chaîne logi{" "}
-                        </h5>
-                      </div>
-                    </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -488,34 +456,39 @@ export default function Sagex3Detail() {
                 <div className="team-details__top-content">
                   <h3 className="">SAGE X3 Bien plus qu'un ERP: </h3>
                   <p>
-                  Utilisez une solution unique pour bénéficier d'une visibilité en temps réel sur l'ensemble de votre activité. 
+                    Utilisez une solution unique pour bénéficier d'une
+                    visibilité en temps réel sur l'ensemble de votre activité.
                   </p>
                   <div className="info-box mt-3">
                     <div className="inner">
                       <h5 className="title">
-                        <i className="icon fa fa-circle-check" /> Une solution extensible pour une croissance illimitée.{" "}
+                        <i className="icon fa fa-circle-check" /> Une solution
+                        extensible pour une croissance illimitée.{" "}
                       </h5>
                     </div>
                   </div>
                   <div className="info-box mt-3">
                     <div className="inner">
                       <h5 className="title">
-                        <i className="icon fa fa-circle-check" />{" "}Flexible et personnalisable pour suivre l'évolution de vos besoins.{" "}
-                      </h5>
-                     
-                    </div>
-                  </div>
-                  <div className="info-box mt-3">
-                    <div className="inner">
-                      <h5 className="title">
-                        <i className="icon fa fa-circle-check" />{" "}Fonctionnalités adaptées à de nombreux pays et systèmes réglementaires{" "}
+                        <i className="icon fa fa-circle-check" /> Flexible et
+                        personnalisable pour suivre l'évolution de vos besoins.{" "}
                       </h5>
                     </div>
                   </div>
                   <div className="info-box mt-3">
                     <div className="inner">
                       <h5 className="title">
-                        <i className="icon fa fa-circle-check" />{" "}Conçu pour les besoins spécifiques de votre secteur.{" "}
+                        <i className="icon fa fa-circle-check" />{" "}
+                        Fonctionnalités adaptées à de nombreux pays et systèmes
+                        réglementaires{" "}
+                      </h5>
+                    </div>
+                  </div>
+                  <div className="info-box mt-3">
+                    <div className="inner">
+                      <h5 className="title">
+                        <i className="icon fa fa-circle-check" /> Conçu pour les
+                        besoins spécifiques de votre secteur.{" "}
                       </h5>
                     </div>
                   </div>
