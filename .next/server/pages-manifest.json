@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/btp": "pages/btp.js",
-  "/energie-renouvelable": "pages/energie-renouvelable.js",
-  "/autre-secteurs-activte": "pages/autre-secteurs-activte.js",
-  "/file-attente": "pages/file-attente.js"
+  "/intelligence-artificielle": "pages/intelligence-artificielle.js",
+  "/": "pages/index.js"
 }

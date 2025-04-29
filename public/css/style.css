@@ -14274,3 +14274,13 @@ Sidebar
 .footer-bottom .copyright-text a:hover {
   color: #ffffff;
 }
+
+.Aiposi {
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .Aiposi {
+    margin-top: 0; /* ou une autre valeur que tu veux */
+  }
+}

@@ -8,15 +8,12 @@ export default function Menu() {
             <ul className="navigation">
                 <li className=""><Link href="/">Accueil</Link></li>
                 <li className=""><Link href="/a-propos">A propos</Link></li>
-
-
-
                 <li className="dropdown"><Link href="/page-about">Nos Secteurs d’Activité</Link>
                     <ul>
                         <li className="dropdown"><Link href="">Technologie</Link>
                             <ul>
-                                {/* <li><Link href="/page-team">Technologie</Link></li> */}
                                 <li><Link href="/erp"> ERP (Enterprise Resource Planning)</Link></li>
+                                <li><Link href="/intelligence-artificielle">Intelligence aritificielle</Link></li>
                                 <li><Link href="/cybersecurite">Cybersécurité</Link></li>
                                 <li><Link href="/file-attente">Gestion de file d’attente</Link></li>
                                 <li><Link href="/tracabilite-agricole">Traçabilité agricole</Link></li>
