@@ -69,8 +69,8 @@ export default function Footer1() {
                                             <li><Link href="/#">Odoo</Link></li>
                                             <li><Link href="/#">Farmsio</Link></li>
                                             <li><Link href="/#">Divalto</Link></li>
-                                            <li><Link href="/#">BTP</Link></li>
-                                            <li><Link href="/#">Import-Export</Link></li>
+                                            <li><Link href="/#">BTP et Construction Industrielle</Link></li>
+                                            <li><Link href="/import-export">Import-Export</Link></li>
                                             <li><Link href="/#">Energie</Link></li>
                                             <li><Link href="/#">Conseil stratégique</Link></li>
                                             <li><Link href="/#">Faqs</Link></li>

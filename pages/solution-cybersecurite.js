@@ -12,7 +12,6 @@ export default function SolutionCybersecurite() {
                 {/* <Map /> */}
                 <CyberSecurityDetail addClass={"pt-5"}/>
                 {/* <TeamDetails/> */}
-                
             </Layout>
         </>
     )

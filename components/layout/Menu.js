@@ -41,9 +41,9 @@ export default function Menu() {
                         </li>
 
 
-                        <li className="dropdown"><Link href="">BTP</Link>
+                        <li className="dropdown"><Link href="/btp-construction-industrielle">BTP et Construction Industrielle</Link>
                             <ul>
-                                <li><Link href="/btp">Projets BTP : construction, rénovation, infrastructures</Link></li>
+                                <li><Link href="/btp-construction-industrielle">Projets BTP : construction, rénovation, infrastructures</Link></li>
                                 {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
                                 <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
                                 <li><Link href="/page-team-details">Traçabilité agricole</Link></li>

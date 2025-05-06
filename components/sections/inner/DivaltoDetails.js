@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import CtaDivalto from "@/components/sections/CtaDivalto";
+
 // import Link from "next/link";
 // import About2 from "@/components/sections/About2";
 // import Testimonial1 from "../Testimonial1";

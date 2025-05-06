@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/intelligence-artificielle": [
+    "/btp-construction-industrielle": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/intelligence-artificielle.js"
+      "static/chunks/pages/btp-construction-industrielle.js"
+    ],
+    "/conseil": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/conseil.js"
+    ],
+    "/import-export": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/import-export.js"
     ]
   },
   "ampFirstPages": []

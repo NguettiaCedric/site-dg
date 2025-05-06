@@ -9,11 +9,9 @@ export default function CtaIA() {
                 <div className="auto-container">
                     <div className="outer-box wow fadeIn">
                         <h2 className="title"> 
-                            
-                            <br />
                             Contactez KOOTHE
                         </h2>
-                        <Link href="/#" className="theme-btn btn-style-one light"><span className="btn-title-text-white">Contat</span></Link>
+                        <Link href="/#" className="theme-btn btn-style-one light  text-end"><span className="btn-title-text-white">Contact</span></Link>
                     </div>
                 </div>
                 
