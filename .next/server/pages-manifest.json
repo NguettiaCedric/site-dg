@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/import-export": "pages/import-export.js",
-  "/conseil": "pages/conseil.js",
   "/": "pages/index.js",
-  "/btp-construction-industrielle": "pages/btp-construction-industrielle.js"
+  "/import-export": "pages/import-export.js",
+  "/btp-construction-industrielle": "pages/btp-construction-industrielle.js",
+  "/intelligence-artificielle": "pages/intelligence-artificielle.js"
 }

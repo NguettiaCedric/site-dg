@@ -32,15 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/btp-construction-industrielle.js"
     ],
-    "/conseil": [
+    "/intelligence-artificielle": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/conseil.js"
-    ],
-    "/import-export": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/import-export.js"
+      "static/chunks/pages/intelligence-artificielle.js"
     ]
   },
   "ampFirstPages": []

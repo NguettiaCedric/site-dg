@@ -219,8 +219,6 @@ export default function FarmsioDetails() {
         </div>
       </section>
 
-      {/* <Ctarsm  /> */}
-      {/* <Ctafarmsio  /> */}
 
       <section className="team-details">
         <div className="container pb-4">
