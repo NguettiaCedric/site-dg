@@ -10,8 +10,9 @@ export default function Cta() {
                 <div className="auto-container">
                     <div className="outer-box wow fadeIn">
                         {/* <figure className="small-image"><img src="/images/resource/img.jpg" alt="" /></figure> */}
-                        <h2 className="title">Better digital marketing <span className="selected">solution</span> <br />and services at your <br />fingertips</h2>
-                        <Link href="/page-contact" className="theme-btn btn-style-one light"><span className="btn-title">Discover more</span></Link>
+                        <h2 className="title"> Nous croyons en une croissance <span className="selected"></span> <br /> inclusive portée par l'innovation  <br />,
+                        la performance et l'excellence opérationnelle</h2>
+                        <Link href="/page-contact" className="theme-btn btn-style-one light"><span className="btn-title">Contactez-nous</span></Link>
                     </div>
                 </div>
             </section>

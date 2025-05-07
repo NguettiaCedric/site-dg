@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/cybersecurite": "pages/cybersecurite.js",
   "/": "pages/index.js",
-  "/news-details": "pages/news-details.js"
+  "/page-contact": "pages/page-contact.js"
 }
