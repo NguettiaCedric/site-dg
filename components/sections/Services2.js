@@ -15,50 +15,54 @@ export default function Services2() {
                     <div className="row">
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                           {/* <Link href="/sap-business-one"> */}
+                           <Link href="/sap-business-one">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/b1.png" alt="Business One" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration<br />SAP Business One</Link></h5>
+                                    <h5 className="title">Intégration<br />SAP Business One</h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
                                     <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
                                 </div>
                             </div>
-                            {/* </Link> */}
+                            </Link>
                         </div>
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                         <Link href="/solution-odoo">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/Odoo.png" alt="Odoo" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration <br/> Odoo</Link></h5>
+                                    <h5 className="title">Intégration <br/> Odoo</h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />
                                     <div className="text">Solution ERP complète et modulable qui centralise la gestion de votre entreprise...</div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                         {/* Service Block Two */}
                         <div className=" news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                        <Link href="/solution-tracabilite-agricole">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/formsio201_.png" alt="farmsio" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration Farmsio <br /></Link></h5>
+                                    <h5 className="title">Intégration Farmsio <br /></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-technology" />
                                     <div className="text">La solution de traçabilité agricole...</div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                     </div>
 
@@ -66,33 +70,37 @@ export default function Services2() {
                         {/* Service Block Two */}
 
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                          <Link href="/solution-divalto">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Intégration<br/>Divalto</Link></h5>
+                                    <h5 className="title">Intégration<br/>Divalto</h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />
                                     <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                         
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                        <Link href="/developpement-web-mobile">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/dev-solution.png" alt="" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Développement Web <br /></Link></h5>
+                                    <h5 className="title">Développement Web <br /></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
                                     <div className="text">Découvrez notre service de développement web sur mesure, conçu pour transformer vos idées ...</div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                         
                         {/* Service Block Two */}
@@ -164,18 +172,20 @@ export default function Services2() {
                     <div className="row">
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                          <Link href="/cybersecurite">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/cyberSecurity.png" alt="Cyber sécurité" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Cybersécurité<br /></Link></h5>
+                                    <h5 className="title">Cybersécurité<br /></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
                                     <div className="text">Notre équipe de spécialistes en sécurité du numérique vous accompagne dans la protection optimale de vos actifs immatériels</div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">

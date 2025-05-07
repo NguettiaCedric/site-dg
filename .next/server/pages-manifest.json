@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/cybersecurite": "pages/cybersecurite.js",
   "/": "pages/index.js",
-  "/erp": "pages/erp.js",
-  "/sap-business-one": "pages/sap-business-one.js"
+  "/news-details": "pages/news-details.js"
 }
