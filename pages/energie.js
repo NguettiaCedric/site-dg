@@ -3,7 +3,7 @@ import Contact from "@/components/sections/inner/Contact"
 import Map from "@/components/sections/Map"
 import PageTitle from "@/components/sections/PageTitle"
 import EnergiesRenouvelable from "@/components/sections/EnergiesRenouvelable"
-export default function energieRenouvelable() {
+export default function Energie() {
     return (
         <>
             <Layout headerStyle={2} footerStyle={1}>

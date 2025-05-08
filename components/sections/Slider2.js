@@ -38,14 +38,15 @@ export default function Slider1() {
           <SwiperSlide className="slide-item">
             <div
               className="bg-image"
-              style={{ backgroundImage: "url(images/main-slider/slider-b-2.jpg)" }}
+              // style={{ backgroundImage: "url(images/main-slider/slider-b1--5.jpg)" }}
+              style={{ backgroundImage: "url(images/main-slider/b1-1.jpg)" }}
             />
             <div className="auto-container">
               <div
                 className="content-box"
                 style={{ marginTop: "-5px", paddingLeft: "43px" }}
               >
-                <h1 className="title animate-1 text-dark">
+                <h1 className="title animate-1 text-whitw">
                   Optimisez vos processus métiers grâce à des solutions ERP sur 
                   mesure,
                   <br /> pensées pour la performance et l’agilité

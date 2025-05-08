@@ -14,6 +14,8 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                             <ul className="list-style-one">
                                 <li><i className="fa fa-envelope" style={{color:"#1C4E97"}} /> <Link className="text-white" href="/mailto:info@koothe.com">info@koothe.com</Link></li>
                                 <li><i className="fa fa-map-marker" style={{color:"#1C4E97"}} /><span className="text-white">Localisation Riviera 3 triangle</span></li>
+                                <li><i className="fa-solid fa-phone"  style={{color:"#1C4E97"}}/> <span className="text-white">+225 07 06 06 54 06</span></li>
+
                             </ul>
                         </div>
                         <div className="top-right">
@@ -57,9 +59,7 @@ export default function Header2({ scroll, isSearch, handleSearch, isMobileMenu, 
                             </button>
                             <Link href="/tel:+92(8800)9806" className="info-btn">
                                 <i className="icon lnr-icon-phone-handset" />
-                                <small>Contact</small>
-                                +225 0706065406 / <br/>+225 0594310375 
-                            </Link>
+                                <small>Contact</small>+225 0706065406</Link>
                             {/* Mobile Nav toggler */}
                             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
                         </div>

@@ -3549,7 +3549,8 @@ Section Title
   width: 38px;
   border-radius: 5px 5px 5px 0;
   /* background-color: var(--bg-theme-color1); */
-  background-color:#1C4E97;
+  /* background-color:#1C4E97; */
+  background-color:#a2b1c8;
   -webkit-transform: skew(-15deg);
           transform: skew(-15deg);
   z-index: -1;

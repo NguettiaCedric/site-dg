@@ -7,7 +7,7 @@ export default function Menu() {
         <>
             <ul className="navigation">
                 <li className=""><Link href="/">Accueil</Link></li>
-                <li className=""><Link href="/a-propos">A propos</Link></li>
+                <li className=""><Link href="/a-propos">À propos</Link></li>
                 <li className="dropdown"><Link href="/page-about">Nos Secteurs d’Activité</Link>
                     <ul>
                         <li className="dropdown"><Link href="">Technologie</Link>
@@ -23,10 +23,10 @@ export default function Menu() {
 
                         <li className="dropdown"><Link href="">Énergie</Link>
                             <ul>
-                                <li><Link href="/energie-renouvelable">Énergies renouvelables</Link></li>
-                                <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
+                                <li><Link href="/energie">Énergie</Link></li>
+                                {/* <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
                                 <li><Link href="/projets-solaires">Projets solaires</Link></li>
-                                <li><Link href="/solutions-durables-eco-responsables">Solutions durables et éco-responsables</Link></li>
+                                <li><Link href="/solutions-durables-eco-responsables">Solutions durables et éco-responsables</Link></li> */}
                             </ul>
                         </li>
 

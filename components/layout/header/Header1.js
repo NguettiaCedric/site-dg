@@ -14,6 +14,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                             <ul className="list-style-one">
                                 <li><i className="fa fa-envelope" style={{color:"#1C4E97"}}/> <Link href="/mailto:info@koothe.com" className="text-white">info@koothe.com</Link></li>
                                 <li><i className="fa fa-map-marker"  style={{color:"#1C4E97"}}/> <span className="text-white">Localisation Riviera 3 triangle</span></li>
+                                <li><i className="fa-solid fa-phone"  style={{color:"#1C4E97"}}/> <span className="text-white">+225 07 06 06 54 06</span></li>
                             </ul>
                         </div>
                         <div className="top-right">
@@ -49,13 +50,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                         </div>
                         <div className="outer-box">
                             {/* Header Search */}
-                            <button className="ui-btn ui-btn search-btn" onClick={handleSearch}>
+                            {/* <button className="ui-btn ui-btn search-btn" onClick={handleSearch}>
                                 <span className="icon lnr lnr-icon-search" />
-                            </button>
-                            <Link href="/tel:+92(8800)9806" className="info-btn">
+                            </button> */}
+                            <Link href="/tel:+2250706065406 " className="info-btn">
                                 <i className="icon lnr-icon-phone-handset" />
                                 <small>Appelez</small>
-                                +225 07 07 17 04 07
+                                +225 07 06 06 54 06  
                             </Link>
                             {/* Mobile Nav toggler */}
                             <div className="mobile-nav-toggler" onClick={handleMobileMenu}><span className="icon lnr-icon-bars" /></div>
@@ -82,7 +83,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <Link href="/tel:+2250706065406">+225 07 06 06 54 06</Link>
                                 </div>
                             </li>
                             <li>

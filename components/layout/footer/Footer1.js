@@ -14,7 +14,7 @@ export default function Footer1() {
                                 <div className="inner">
                                     <i className="icon fa fa-phone-square" />
                                     <span className="sub-title">Appelez </span>
-                                    <div className="text"><Link href="/tel:+225 07 07 17 04 07">+225 0706065406 / <br/>+225 0594310375 </Link></div>
+                                    <div className="text"><Link href="/tel:+225 0706065406">+225 0706065406 / <br/>+225 0594310375 </Link></div>
                                 </div>
                             </div>
                             {/* Contact info Block */}
