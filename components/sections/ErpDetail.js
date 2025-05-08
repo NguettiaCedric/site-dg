@@ -95,7 +95,7 @@ export default function ErpDetail() {
                                         <figure className="image"><img src="/images/resource/alfresco-3.jpg" alt="Divalto" /></figure>
                                     </div>
                                     <div className="title-box">
-                                        <h5 className="title"><Link href="/solution-alfresco">ALFRESCOl / GED  GED et d'archivage<br/></Link></h5>
+                                        <h5 className="title"><Link href="/solution-alfresco">ALFRESCO / GED  GED et d'archivage<br/></Link></h5>
                                         {/* <h5 className="title"><Link href="/GED-details">ALFRESCO<br/></Link></h5> */}
                                     </div>
                                     <div className="content-box">

@@ -49,7 +49,9 @@ export default function Footer1() {
                                         <div className="logo"><Link href="/"><img src="/images/logo-.png" alt="" title="Tronis" style={{height:"70px"}} /></Link></div>
 
 
-                                        <div className="text">KOOTHE est une entreprise multisectorielle innovante,engagée dans la création de solutions durables et performantes.</div>
+                                        <div className="text-white">
+                                            Notre engagement se traduit par une disponibilité constante, une réactivité opérationnelle et une culture du résultat 
+                                            </div>
                                         <ul className="social-icon-two">
                                             <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>
                                             <li><Link href="/#"><i className="fab fa-facebook" /></Link></li>
@@ -64,22 +66,23 @@ export default function Footer1() {
                                 <div className="widget links-widget">
                                     <h5 className="widget-title">Solutions</h5>
                                     <div className="widget-content">
-                                        <ul className="user-links two-column">
-                                            <li><Link href="/#">SAP Business One</Link></li>
-                                            <li><Link href="/#">Odoo</Link></li>
-                                            <li><Link href="/#">Farmsio</Link></li>
-                                            <li><Link href="/#">Divalto</Link></li>
-                                            <li><Link href="/#">BTP et Construction Industrielle</Link></li>
-                                            <li><Link href="/import-export">Import-Export</Link></li>
-                                            <li><Link href="/#">Energie</Link></li>
-                                            <li><Link href="/#">Conseil stratégique</Link></li>
-                                            <li><Link href="/#">Faqs</Link></li>
+                                        <ul className="user-links">
+                                            <li><Link href="/sap-business-one" className="text-white">SAP Business One</Link></li>
+                                            <li><Link href="/solution-odoo"  className="text-white">Odoo</Link></li>
+                                            <li><Link href="/solution-sage-x3"  className="text-white">Sage X3</Link></li>
+                                            <li><Link href="/tracabilite-agricole"  className="text-white">Farmsio</Link></li>
+                                            {/* <li><Link href="/#">Farmsio</Link></li> */}
+                                            <li><Link href="/solution-divalto"  className="text-white">Divalto</Link></li>
+                                            <li><Link href="/solution-alfresco"  className="text-white">ALFRESCO</Link></li>
+                                            {/* <li><Link href="/#">Faqs</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             {/* Footer COlumn */}
-                            <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+
+
+                            {/* <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                                 <div className="widget newsletter-widget">
                                     <h5 className="widget-title">Newsletter</h5>
                                     <div className="widget-content">
@@ -96,7 +99,30 @@ export default function Footer1() {
                                         </div>
                                     </div>
                                 </div>
+                            </div> */}
+
+
+                            <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                <div className="widget newsletter-widget">
+                                    <h5 className="widget-title">Nos services</h5>
+                                    <div className="widget-content">
+                                        <div className="subscribe-form">
+                                            <ul className="user-links">
+                                                <li><Link href="/import-export" className="text-white">Import Export</Link></li>
+                                                <li><Link href="/#"  className="text-white">Conseil stratégique</Link></li>
+                                                <li><Link href="/energie"  className="text-white">Energie</Link></li>
+                                                <li><Link href="/btp-construction-industrielle"  className="text-white">BTP et Construction Industrielle</Link></li>
+                                                <li><Link href="/accompagnement-digital" className="text-white">Accompagnement Digital</Link></li>
+                                                <li><Link href="/developpement-web" className="text-white">Développement web</Link></li>
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+
+
                         </div>
                     </div>
                 </div>

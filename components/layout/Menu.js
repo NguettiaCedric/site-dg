@@ -15,7 +15,7 @@ export default function Menu() {
                                 <li><Link href="/erp"> ERP (Enterprise Resource Planning)</Link></li>
                                 <li><Link href="/intelligence-artificielle">Intelligence aritificielle</Link></li>
                                 <li><Link href="/cybersecurite">Cybersécurité</Link></li>
-                                <li><Link href="/file-attente">Gestion de file d’attente</Link></li>
+                                {/* <li><Link href="/file-attente">Gestion de file d’attente</Link></li> */}
                                 <li><Link href="/tracabilite-agricole">Traçabilité agricole</Link></li>
                                 <li><Link href="/developpement-web-mobile">Développement d’applications sur mesure</Link></li>
                             </ul>
