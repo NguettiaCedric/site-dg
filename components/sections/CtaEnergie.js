@@ -9,10 +9,10 @@ export default function CtaEnergie() {
                 <div className="auto-container">
                     <div className="outer-box wow fadeIn">
                         <h2 className="title"> 
-                         Activer intelligemment les processus et le contenu pour accélérer le flux des activités
+                        Nous croyons en une croissance inclusive portée par l'innovation, 
                             {/* <br /> */}
                             <br />
-                            Contactez notre équipe commerciale !
+                            la performance et l'excellence opérationnelle
                         </h2>
                         <Link href="/page-contact" className="theme-btn btn-style-one light"><span className="btn-title-text-white">Contactez-nous</span></Link>
                     </div>

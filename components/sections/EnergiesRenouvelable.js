@@ -17,7 +17,7 @@ export default function EnergiesRenouvelable() {
                                 {" "}
                                 <img
                                   src="images/resource/solaire-1--min.jpg"
-                                  alt="solution divalto"
+                                  alt="solution Energetique"
                                 />
                               </div>
                             </div>
@@ -100,7 +100,7 @@ export default function EnergiesRenouvelable() {
                         <div className="team-details__top-right">
                             <div className="team-details__top-img">
                             {" "}
-                            <img src="images/resource/divalto-3.png" alt="Divalto" />
+                            <img src="images/resource/Energie-Renouvelable-2.jpg" alt="solution Energetique" />
                             </div>
                         </div>
                         </div>
@@ -121,8 +121,8 @@ export default function EnergiesRenouvelable() {
                               <div className="team-details__top-img">
                                 {" "}
                                 <img
-                                  src="images/resource/solaire-1--min.jpg"
-                                  alt="solution divalto"
+                                  src="images/resource/Energie-Renouvelable-1.jpg"
+                                  alt="solution Energetique"
                                 />
                               </div>                    
 
