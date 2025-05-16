@@ -20,7 +20,8 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/Distribution.jpg" alt="Distribution" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Distribution</Link></h5>
+                                {/* page-service-details */}
+                                    <h5 className="title"><Link href="/">Distribution</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
@@ -35,7 +36,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/comodite.jpg" alt="Commodities" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Commodities</Link></h5>
+                                    <h5 className="title"><Link href="/">Commodities</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />
@@ -50,7 +51,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/construction.jpg" alt="construction"/></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Construction</Link></h5>
+                                    <h5 className="title"><Link href="/">Construction</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-technology" />
@@ -69,7 +70,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/agriculture.jpg" alt="agriculture" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Agriculture</Link></h5>
+                                    <h5 className="title"><Link href="/">Agriculture</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />
@@ -84,7 +85,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/communication-gastronomie.jpg" alt="communication-gastronomie" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Communication & Gastronomie</Link></h5>
+                                    <h5 className="title"><Link href="/">Communication & Gastronomie</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
@@ -100,7 +101,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/Art&Design.jpg" alt="Art&Design"/></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Art & Design <br /></Link></h5>
+                                    <h5 className="title"><Link href="/">Art & Design <br /></Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-technology" />
@@ -119,7 +120,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/Production&Aquatique.jpg" alt="Production&Aquatique" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Production Animale & Aquatique</Link></h5>
+                                    <h5 className="title"><Link href="/">Production Animale & Aquatique</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
@@ -134,7 +135,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/materiel.jpg" alt="materiel"  /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Fourniture de tous types de matériels</Link></h5>
+                                    <h5 className="title"><Link href="/">Fourniture de tous types de matériels</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />
@@ -149,7 +150,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/mobilier-.jpg" alt="mobilier-"/></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Mobiliers<br /></Link></h5>
+                                    <h5 className="title"><Link href="/">Mobiliers<br /></Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-technology" />
@@ -167,7 +168,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/Denree-1.jpg" alt="Denree_Alimentaire" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Fourniture de <br/>denrées alimentaires</Link></h5>
+                                    <h5 className="title"><Link href="/">Fourniture de <br/>denrées alimentaires</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
@@ -182,7 +183,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/Maison.jpg" alt="Maison" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Location et vente de tous biens meubles et immeubles<br/></Link></h5>
+                                    <h5 className="title"><Link href="/">Location et vente de tous biens meubles et immeubles<br/></Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design"/>
@@ -198,7 +199,7 @@ export default function AutreActivite() {
                                     <figure className="image"><img src="/images/resource/pret.jpg" alt="pret"  /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Prise en location gérance de tous fonds de commerce</Link></h5>
+                                    <h5 className="title"><Link href="/">Prise en location gérance de tous fonds de commerce</Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-graphic-design" />

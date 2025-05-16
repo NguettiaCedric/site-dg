@@ -13,6 +13,27 @@ export default function Services2() {
                         <h2> Les services que <br/>nous proposons</h2>
                     </div>
                     <div className="row">
+
+                          {/* Service Block Two */}
+                        
+                          <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                           <Link href="/sap-business-s4hana">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/solution-hana-2.png" alt="S/4 HANA" /></figure>
+                                </div>
+                                <div className="title-box">
+                                    <h5 className="title">Intégration <br/> SAP S/4 HANA</h5>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-graphic-design" />
+                                    <div className="text">SAP S/4HANA est la solution de gestion intégrée de référence pour les grandes entreprises...</div>
+                                </div>
+                            </div>
+                            </Link>
+                        </div>
+
+                        
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                            <Link href="/sap-business-one">
@@ -26,23 +47,6 @@ export default function Services2() {
                                 <div className="content-box">
                                     <i className="icon flaticon-digital-services" />
                                     <div className="text">SAP Business One est la solution ERP incontournable pour les PME africaines ...</div>
-                                </div>
-                            </div>
-                            </Link>
-                        </div>
-                        {/* Service Block Two */}
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                         <Link href="/solution-odoo">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/Odoo.png" alt="Odoo" /></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title">Intégration <br/> Odoo</h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
-                                    <div className="text">Solution ERP complète et modulable qui centralise la gestion de votre entreprise...</div>
                                 </div>
                             </div>
                             </Link>
@@ -66,28 +70,11 @@ export default function Services2() {
                         </div>
                     </div>
 
+
                     <div className="row">
                         {/* Service Block Two */}
-
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                          <Link href="/solution-divalto">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/Divalto.png" alt="Divalto" /></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title">Intégration<br/>Divalto</h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
-                                    <div className="text">Divalto est une solution ERP et CRM complète qui optimise la gestion d’entreprises...</div>
-                                </div>
-                            </div>
-                            </Link>
-                        </div>
-                        
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                        <Link href="/developpement-web-mobile">
+                          <Link href="/developpement-web-mobile">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/dev-solution.png" alt="" /></figure>
@@ -102,64 +89,16 @@ export default function Services2() {
                             </div>
                             </Link>
                         </div>
-                        
-                        {/* Service Block Two */}
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/supportmaintenance.png" alt="solution digital"/></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Support & Maintenance <br /></Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-technology" />
-                                    <div className="text">Notre équipe de support SAP certifiée vous accompagne dans la gestion optimale de vos systèmes SAP au quotidien.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
 
-                    <div className="row">
-                        {/* Service Block Two */}
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/audit.png" alt="Audit" /></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Audit de Système d'information<br /></Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-digital-services" />
-                                    <div className="text">Notre équipe de consultants vous accompagne dans l'évaluation approfondie de vos process métiers et systèmes d'information</div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* Service Block Two */}
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/consulting-metier.png" alt="formation"  /></figure>
-                                </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Consulting métier <br/></Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
-                                    <div className="text">Notre équipe de consultants sectoriels vous accompagne dans l'optimisation de vos process métier.</div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* Service Block Two */}
-                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                         {/* Service Block Two */}
+                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/dataAnalyse.png" alt="data Analyse"/></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Data Analytics<br /></Link></h5>
+                                    <h5 className="title"><Link href="/">Data Analytics<br /></Link></h5>
                                 </div>
                                 <div className="content-box">
                                     <i className="icon flaticon-technology" />
@@ -167,9 +106,6 @@ export default function Services2() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="row">
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                           <Link href="/cybersecurite">
@@ -186,40 +122,132 @@ export default function Services2() {
                                 </div>
                             </div>
                             </Link>
-                        </div>
+                        </div>                       
+                    </div>
+
+                    <div className="row">
                         {/* Service Block Two */}
+
+                       
+                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                            <Link href="/solution-alfresco">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><img src="/images/resource/alfresco-3.jpg" alt="Divalto" /></figure>
+                                    </div>
+                                    <div className="title-box">
+                                        <h5 className="title"><Link href="/solution-alfresco">ALFRESCO / GED  GED et d'archivage<br/></Link></h5>
+                                        {/* <h5 className="title"><Link href="/GED-details">ALFRESCO<br/></Link></h5> */}
+                                    </div>
+                                    <div className="content-box">
+                                        <i className="icon flaticon-graphic-design" />
+                                        <div className="text">La plateforme Alfresco propose des services complets de contenu cloud-natif...</div>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+
+
+
+                        
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/digital1-solution.png" alt="solution digital" /></figure>
+                                    <figure className="image"><img src="/images/resource/audit.png" alt="Audit" /></figure>
                                 </div>
                                 <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Accompagnement Digital<br/></Link></h5>
+                                    <h5 className="title"><Link href="/">Audit de Système d'information<br /></Link></h5>
                                 </div>
                                 <div className="content-box">
-                                    <i className="icon flaticon-graphic-design"/>
-                                    <div className="text">Nous vous accompagnons à travers la transition vers des solutions numériques.</div>
+                                    <i className="icon flaticon-digital-services" />
+                                    <div className="text">Notre équipe de consultants vous accompagne dans l'évaluation approfondie de vos process métiers et systèmes d'information</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {/* Service Block Two */}
+
+                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/materiel.jpg" alt="materiel"  /></figure>
+                                </div>
+                                <div className="title-box">
+                                    <h5 className="title"><Link href="/">Fourniture de tous types de matériels</Link></h5>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-graphic-design" />
+                                    <div className="text">KOOTHE propose une large gamme de matériels adaptés à tous vos besoins, avec un service rapide et personnalisé...</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                  
+
+                    <div className="row">
+                        {/* Service Block Two */}
+                        <div className=" news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                           <Link href="/btp-construction-industrielle">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/construction.jpg" alt="construction"/></figure>
+                                </div>
+                                <div className="title-box">
+                                    <h5 className="title">Construction</h5>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-technology" />
+                                    <div className="text">KOOTHE conçoit et réalise des projets de construction adaptés à vos besoins, alliant qualité, sécurité et innovation...</div>
+                                </div>
+                            </div>
+
+                            </Link>
+                        </div>
+
+                        {/* Service Block Two */}
+
+                        <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
+                            <div className="inner-box">
+                                <div className="image-box">
+                                    <figure className="image"><img src="/images/resource/Distribution.jpg" alt="Distribution" /></figure>
+                                </div>
+                                <div className="title-box">
+                                {/* page-service-details */}
+                                    <h5 className="title"><Link href="/">Distribution</Link></h5>
+                                </div>
+                                <div className="content-box">
+                                    <i className="icon flaticon-digital-services" />
+                                    <div className="text">Nous assurons une distribution fluide et optimisée de vos produits, avec un suivi rigoureux à chaque étape..</div>
                                 </div>
                             </div>
                         </div>
 
                         {/* Service Block Two */}
                         <div className="news-block service-block-two col-lg-4 col-md-6 coll-md-12 wow fadeInUp">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/formation.png" alt="formation"  /></figure>
+                           <Link href="/energie">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <figure className="image"><img src="/images/resource/energie-solaire.png" alt="energie solaire"  /></figure>
+                                    </div>
+                                    <div className="title-box">
+                                        <h5 className="title">ENERGIE SOLAIRE</h5>
+                                    </div>
+                                    <div className="content-box">
+                                        <i className="icon flaticon-graphic-design" />
+                                        <div className="text">Etude, fourniture et installation de sites solaires (centrales solaires photovoltaïques(jusqu’à plusieurs Mégawatts), </div>
+                                    </div>
                                 </div>
-                                <div className="title-box">
-                                    <h5 className="title"><Link href="/page-service-details">Formation SAP <br/>Conduite du changement</Link></h5>
-                                </div>
-                                <div className="content-box">
-                                    <i className="icon flaticon-graphic-design" />
-                                    <div className="text">Notre équipe d'experts certifiés SAP vous accompagne dans l'adoption réussie de vos solutions SAP Business One, SAP RSM ou SAP s/4 HANA.</div>
-                                </div>
-                            </div>
+                            </Link>
                         </div>
                         
                     </div>
+
+
+                   
                 </div>
             </section>
         </>

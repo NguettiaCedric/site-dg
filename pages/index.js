@@ -46,10 +46,10 @@ export default function Home() {
                 {/* <News2 /> */}
 
                 <Funfact />
-                {/* <News1 /> */}
-                {/* <Contact1 /> */}
-                <Clients1 />
-                <Team />
+                
+                <Clients1 /> 
+                
+                {/* <Team /> */}
 
                 <Map />
                             

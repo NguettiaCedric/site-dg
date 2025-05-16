@@ -5,8 +5,8 @@ export default function newsdetailspage() {
     return (
         <>
             <Layout headerStyle={2} footerStyle={1}>
-                <PageTitle pageName="News Details" />
-                {/* <NewsDetails /> */}
+                <PageTitle pageName="Blog Details" />
+                <NewsDetails />
             </Layout>
         </>
     )

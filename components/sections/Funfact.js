@@ -17,10 +17,10 @@ export default function Funfact() {
                             <div className="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                                 <div className="inner">
                                     <div className="icon-box"><i className="flaticon-completed-task" /></div>
-                                    <div className="count-box">
-                                        <CounterUp count={9} time={3} />
+                                    <div className="count-box"> +
+                                        <CounterUp count={15} time={3} />
                                     </div>
-                                    <h4 className="counter-title">Projects Completed</h4>
+                                    <h4 className="counter-title">Projets réalisés</h4>
                                 </div>
                             </div>
                             {/*Counter block*/}
@@ -28,9 +28,9 @@ export default function Funfact() {
                                 <div className="inner">
                                     <div className="icon-box"><i className="flaticon-settings" /></div>
                                     <div className="count-box">
-                                        <CounterUp count={12} time={3} />
+                                        <CounterUp count={5} time={3} />
                                     </div>
-                                    <h4 className="counter-title">Repeat Customers</h4>
+                                    <h4 className="counter-title">Ans d'existence</h4>
                                 </div>
                             </div>
                             {/*Counter block*/}
@@ -38,9 +38,9 @@ export default function Funfact() {
                                 <div className="inner">
                                     <div className="icon-box"><i className="flaticon-rating" /></div>
                                     <div className="count-box">
-                                        <CounterUp count={5} time={3} />
+                                        <CounterUp count={100} time={3} />
                                     </div>
-                                    <h4 className="counter-title">Satisfied Customers</h4>
+                                    <h4 className="counter-title">% Dédiés à nos clients</h4>
                                 </div>
                             </div>
                             {/*Counter block*/}
@@ -48,9 +48,9 @@ export default function Funfact() {
                                 <div className="inner">
                                     <div className="icon-box"><i className="flaticon-group" /></div>
                                     <div className="count-box">
-                                        <CounterUp count={8} time={3} />
+                                        <CounterUp count={10} time={3} />
                                     </div>
-                                    <h4 className="counter-title">Team Members</h4>
+                                    <h4 className="counter-title">Equipe</h4>
                                 </div>
                             </div>
                         </div>

@@ -15,21 +15,23 @@ export default function BlogNew() {
                         <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/news-details"><img src="/images/resource/news-1.jpg" alt="" /></Link></figure>
+                                    <figure className="image"><Link href="/news-details"><img src="/images/resource/b-detail-sap.jpg" alt="SAP" /></Link></figure>
                                 </div>
                                 <div className="content-box">
-                                    <span className="date">20 April</span>
+                                    <span className="date">16 Mai 2025</span>
                                     <ul className="post-info">
                                         <li><i className="fa fa-user-circle" /> by Admin</li>
-                                        <li><i className="fa fa-comments" /> 2 Comments</li>
+                                        <li><i className="fa fa-comments" /> 2 Commentaires</li>
                                     </ul>
-                                    <h4 className="title"><Link href="/news-details">Five ways that can develop your business website</Link></h4>
-                                    <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <h4 className="title"><Link href="/news-details">Pourquoi passer à SAP S/4HANA ?</Link></h4>
+                                    <Link href="/news-details" className="read-more">Lire plus <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
                         </div>
                         {/* News Block */}
-                        <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+
+
+                        {/* <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><Link href="/news-details"><img src="/images/resource/news-2.jpg" alt="" /></Link></figure>
@@ -44,9 +46,9 @@ export default function BlogNew() {
                                     <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* News Block */}
-                        <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                        {/* <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image"><Link href="/news-details"><img src="/images/resource/news-3.jpg" alt="" /></Link></figure>
@@ -61,7 +63,12 @@ export default function BlogNew() {
                                     <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+
+
+
+
+
                     </div>
                 </div>
             </section>

@@ -1,9 +1,5 @@
 import dynamic from "next/dynamic";
 import CtaBusiness from "@/components/sections/Ctabusiness"
-// import Link from "next/link";
-// import About2 from "@/components/sections/About2";
-// import Testimonial1 from "../Testimonial1";
-// import Slider1 from "../Slider1";
 import SliderB1 from "../SliderB1";
 
 export default function SapDetails() {

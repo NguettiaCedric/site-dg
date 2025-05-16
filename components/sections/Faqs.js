@@ -24,7 +24,7 @@ export default function Faqs() {
     return (
         <>
 
-            <section className="faqs-section pt-3">
+            <section className="faqs-section pt-3" id="about">
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         {/* <span className="sub-title">frequently asked questions</span> */}
@@ -60,7 +60,7 @@ export default function Faqs() {
                                             <div className="inner-box">
                                                 <div className="title-box">
                                                     <i className="icon fa fa-long-arrow-alt-right" />
-                                                    <h6 className="title">SAP Business One ?</h6>
+                                                    <h6 className="title">SAP Business One</h6>
                                                 </div>
                                                 {/* <div className="text">Lorem ipsum is simply free text dol sit amet, passage of.</div> */}
                                             </div>
@@ -70,7 +70,7 @@ export default function Faqs() {
                                             <div className="inner-box">
                                                 <div className="title-box">
                                                     <i className="icon fa fa-long-arrow-alt-right" />
-                                                    <h6 className="title">SAP RSM</h6>
+                                                    <h6 className="title">ALFRESCO</h6>
                                                 </div>
                                                 {/* <div className="text">Lorem ipsum is simply free text dol sit amet, passage of.</div> */}
                                             </div>
@@ -115,12 +115,12 @@ export default function Faqs() {
                                     </li>
                                     {/*Block*/}
                                     <li className="accordion block active-block">
-                                        <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(3)}>Qu'est-ce qu'un RSM ?
+                                        <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleClick(3)}>Qu'est-ce qu'ALFRESCO ?
                                             <div className="icon fa fa-plus" />
                                         </div>
                                         <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                                             <div className="content">
-                                                <div className="text">Une solution spécialement conçue pour les exploitations agricoles, cette solution de gestion intégrée vous offre une visibilité totale sur l'ensemble de vos activités.</div>
+                                                <div className="text">ALFRESCO est une plateforme open source de gestion de contenu d'entreprise (ECM) permettant de gérer, stocker, partager et archiver des documents numériques de manière sécurisée.</div>
                                             </div>
                                         </div>
                                     </li>

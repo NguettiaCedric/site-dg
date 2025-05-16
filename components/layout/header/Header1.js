@@ -82,7 +82,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
-                                    <span className="title">Call Now</span>
+                                    <span className="title">Appelez</span>
                                     <Link href="/tel:+2250706065406">+225 07 06 06 54 06</Link>
                                 </div>
                             </li>
@@ -90,24 +90,24 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
                                 {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
-                                    <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <span className="title">Email</span>
+                                    <Link href="/mailto:info@koothe.com">info@koothe.com</Link>
                                 </div>
                             </li>
                             <li>
                                 {/* Contact Info Box */}
-                                <div className="contact-info-box">
+                                {/* <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
                                     <span className="title">Send Email</span>
                                     Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-                                </div>
+                                </div> */}
                             </li>
                         </ul>
                         <ul className="social-links">
                             <li><Link href="/#"><i className="fab fa-twitter" /></Link></li>
                             <li><Link href="/#"><i className="fab fa-facebook-f" /></Link></li>
-                            <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li>
-                            <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
+                            {/* <li><Link href="/#"><i className="fab fa-pinterest" /></Link></li> */}
+                            {/* <li><Link href="/#"><i className="fab fa-instagram" /></Link></li> */}
                         </ul>
                     </nav>
                 </div>{/* End Mobile Menu */}

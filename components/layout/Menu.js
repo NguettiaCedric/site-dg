@@ -21,22 +21,15 @@ export default function Menu() {
                             </ul>
                         </li>
 
-                        <li className="dropdown"><Link href="">Énergie</Link>
+                        <li className="dropdown"><Link href="/energie">Énergie</Link>
                             <ul>
                                 <li><Link href="/energie">Énergie</Link></li>
-                                {/* <li><Link href="/gestion-carbone">Gestion carbone</Link></li>
-                                <li><Link href="/projets-solaires">Projets solaires</Link></li>
-                                <li><Link href="/solutions-durables-eco-responsables">Solutions durables et éco-responsables</Link></li> */}
                             </ul>
                         </li>
 
                         <li className="dropdown"><Link href="">Import-export</Link>
                             <ul>
                                 <li><Link href="/import-export">Activités d’import-export à l’international</Link></li>
-                                {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
-                                <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
-                                <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
-                                <li><Link href="/page-team-details">Développement d’applications sur mesure</Link></li> */}
                             </ul>
                         </li>
 
@@ -44,59 +37,29 @@ export default function Menu() {
                         <li className="dropdown"><Link href="/btp-construction-industrielle">BTP et Construction Industrielle</Link>
                             <ul>
                                 <li><Link href="/btp-construction-industrielle">Projets BTP : construction, rénovation, infrastructures</Link></li>
-                                {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
-                                <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
-                                <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
-                                <li><Link href="/page-team-details">Développement d’applications sur mesure</Link></li> */}
+                               
                             </ul>
                         </li>
 
                         <li className="dropdown"><Link href="">Conseil stratégique et opérationnel</Link>
                             <ul>
                                 <li><Link href="/conseil">Conseil en stratégie, gestion de projet et transformation digitale</Link></li>
-                                {/* <li><Link href="/page-team-details">Cybersécurité</Link></li>
-                                <li><Link href="/page-team-details">Gestion de file d’attente</Link></li>
-                                <li><Link href="/page-team-details">Traçabilité agricole</Link></li>
-                                <li><Link href="/page-team-details">Développement d’applications sur mesure</Link></li> */}
+                             
                             </ul>
                         </li>
 
                        <li className=""><Link href="/autre-secteurs-activte">Autre Secteurs d’Activité</Link></li>                 
                         
-                        {/* <li><Link href="/page-about">About</Link></li> */}
 
                     </ul>
                 </li>
 
 
-
-                               
-                {/* <li className="dropdown"><Link href="/page-services">Nos Secteurs d’Activité</Link>
-                    <ul>
-                        <li><Link href="/page-services">Technologie</Link></li>
-                        <li><Link href="/page-services">Énergie</Link></li>
-                        <li><Link href="/page-services">Import-export</Link></li>
-                        <li><Link href="/page-services">Conseil stratégique et opérationnel</Link></li>
-                    </ul>
-                </li> */}
-
-
                 {/* <li className=""><Link href="/autre-secteurs-activte">Autre Secteurs d’Activité</Link></li>                  */}
-                <li className=""><Link href="/">Projets Realisés</Link></li>
+                <li className=""><Link href="/projets">Projets Realisés</Link></li>
                 <li className=""><Link href="/blog">Blog</Link></li>
-                <li className=""><Link href="/">FAQ</Link> </li>
-                {/* <li className="dropdown"><Link href="/page-projects">Projects</Link>
-                    <ul>
-                        <li><Link href="/page-projects">Projects Grid</Link></li>
-                        <li><Link href="/page-project-details">Project Details</Link></li>
-                    </ul>
-                </li> */}
-                {/* <li className="dropdown"><Link href="/news-grid">News</Link>
-                    <ul>
-                        <li><Link href="/news-grid">News Grid</Link></li>
-                        <li><Link href="/news-details">News Details</Link></li>
-                    </ul>
-                </li> */}
+                <li className=""><Link href="#about">FAQ</Link> </li>
+             
                 <li><Link href="/page-contact">Contact</Link></li>
             </ul>
         </>

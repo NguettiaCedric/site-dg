@@ -68,7 +68,7 @@ export default function Contactpage() {
 										</div>
 										<div className="text">
 											<h6>Téléphone</h6>
-											<a href="tel:+2250706065406"><span></span>+225 07 06 06 54 06</a>
+											<a href="tel:+2250706065406"><span></span>+225 07 06 06 54 06 / +225 0594310375</a>
 										</div>
 									</li>
 									<li>

@@ -21,41 +21,37 @@ export default function NewsDetails() {
 							<ul className="list-unstyled blog-details__meta">
 								<li><Link href="/news-details"><i className="fas fa-user-circle"></i> Admin</Link> </li>
 								<li><Link href="/news-details"><i className="fas fa-comments"></i> 02
-									Comments</Link>
+									Commentaires</Link>
 								</li>
 							</ul>
-							<h3 className="blog-details__title">Delivering the best web design agency</h3>
-							<p className="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit
-								amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam tellus
-								nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec lacus
-								interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet
-								pellentesque vitae et nunc. Sed vitae leo vitae nisl pellentesque semper.
+							<h3 className="blog-details__title">Pourquoi passer à SAP S/4HANA ?</h3>
+							<p className="blog-details__text-2">
+								La transformation digitale n’est plus une option : elle est au cœur de la compétitivité des entreprises modernes. SAP S/4HANA, la suite ERP intelligente de nouvelle 
+								génération, 
+								offre une plateforme puissante pour piloter efficacement vos opérations, en temps réel.
 							</p>
-							<p className="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit
-								amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam tellus
-								nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec lacus
-								interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet
-								pellentesque vitae et nunc. Sed vitae leo vitae nisl pellentesque semper.
+							<p className="blog-details__text-2">
+								Grâce à son architecture en mémoire, SAP S/4HANA permet une analyse instantanée des données, une automatisation avancée des processus et une 
+								simplification de votre paysage IT. Que vous soyez dans l’industrie, la distribution, les services ou la finance, 
+								cette solution s’adapte à vos besoins spécifiques et vous aide à gagner en agilité, en visibilité et en performance..
 							</p>
-							<p className="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit
-								amet lacinia nulla. Aliquam quis purus in justo pulvinar tempor. Aliquam tellus
-								nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec lacus
-								interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet
-								pellentesque vitae et nunc. Sed vitae leo vitae nisl pellentesque semper.
+							<p className="blog-details__text-2">
+								Prêt à faire évoluer votre système d’information ? Découvrez comment notre expertise SAP S/4HANA peut accompagner votre transformation.
+
 							</p>
 						</div>
-						<div className="blog-details__bottom">
+						{/* <div className="blog-details__bottom">
 							<p className="blog-details__tags"> <span>Tags</span> <Link href="/news-details">Business</Link> <Link href="/news-details">Agency</Link> </p>
 							<div className="blog-details__social-list"> <Link href="/news-details"><i className="fab fa-twitter"></i></Link> <Link href="/news-details"><i className="fab fa-facebook"></i></Link> <Link href="/news-details"><i className="fab fa-pinterest-p"></i></Link> <Link href="/news-details"><i className="fab fa-instagram"></i></Link> </div>
-						</div>
-						<div className="nav-links">
+						</div> */}
+						{/* <div className="nav-links">
 							<div className="prev">
 								<Link href="/news-details" rel="prev">Bring to the table win-win survival strategies</Link>
 							</div>
 							<div className="next">
 								<Link href="/news-details" rel="next">How to lead a healthy &amp; well-balanced life</Link>
 							</div>
-						</div>
+						</div> */}
 						<div className="comment-one">
 							<h3 className="comment-one__title">2 Comments</h3>
 							<div className="comment-one__single">
@@ -66,7 +62,7 @@ export default function NewsDetails() {
 										Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla,
 										sollicitudin at euismod.
 									</p>
-									<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
+									<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Repondre</span></Link>
 								</div>
 							</div>
 							<div className="comment-one__single">
@@ -77,11 +73,11 @@ export default function NewsDetails() {
 										Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla,
 										sollicitudin at euismod.
 									</p>
-									<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
+									<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Repondre</span></Link>
 								</div>
 							</div>
 							<div className="comment-form">
-								<h3 className="comment-form__title">Leave a Comment</h3>
+								<h3 className="comment-form__title">Laisser un commentaire</h3>
 								<form id="contact_form" name="contact_form" className="" action="" method="get">
 									<div className="row">
 										<div className="col-sm-6">
@@ -100,14 +96,16 @@ export default function NewsDetails() {
 									</div>
 									<div className="mb-3">
 										<input name="form_botcheck" className="form-control" type="hidden" value="" />
-										<button type="submit" className="theme-btn btn-style-one" data-loading-text="Please wait..."><span className="btn-title">Submit Comment</span></button>
+										<button type="submit" className="theme-btn btn-style-one" data-loading-text="Please wait..."><span className="btn-title">Envoyer</span></button>
 									</div>
 								</form>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="col-xl-4 col-lg-5">
+
+
+				{/* <div className="col-xl-4 col-lg-5">
 					<div className="sidebar">
 						<div className="sidebar__single sidebar__search">
 							<form action="#" className="sidebar__search-form">
@@ -199,7 +197,10 @@ export default function NewsDetails() {
 							</ul>
 						</div>
 					</div>
-				</div>
+				</div> */}
+
+
+
 			</div>
 		</div>
 	</section>
