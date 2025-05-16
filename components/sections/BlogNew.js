@@ -21,53 +21,51 @@ export default function BlogNew() {
                                     <span className="date">16 Mai 2025</span>
                                     <ul className="post-info">
                                         <li><i className="fa fa-user-circle" /> by Admin</li>
-                                        <li><i className="fa fa-comments" /> 2 Commentaires</li>
+                                        {/* <li><i className="fa fa-comments" /> 2 Commentaires</li> */}
                                     </ul>
                                     <h4 className="title"><Link href="/news-details">Pourquoi passer à SAP S/4HANA ?</Link></h4>
                                     <Link href="/news-details" className="read-more">Lire plus <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
                         </div>
-                        {/* News Block */}
 
 
-                        {/* <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+
+                        {/* News Block */}                 
+                        <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/news-details"><img src="/images/resource/news-2.jpg" alt="" /></Link></figure>
+                                    <figure className="image"><Link href="/news-details-1"><img src="/images/resource/b-detail-ged.jpg" alt="SAP" /></Link></figure>
                                 </div>
                                 <div className="content-box">
-                                    <span className="date">20 April</span>
+                                    <span className="date">16 Mai 2025</span>
                                     <ul className="post-info">
                                         <li><i className="fa fa-user-circle" /> by Admin</li>
-                                        <li><i className="fa fa-comments" /> 2 Comments</li>
+                                        {/* <li><i className="fa fa-comments" /> 2 Commentaires</li> */}
                                     </ul>
-                                    <h4 className="title"><Link href="/news-details">Five ways that can develop your business website</Link></h4>
-                                    <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <h4 className="title"><Link href="/news-details-1">La GED, un levier de productivité pour votre entreprise</Link></h4>
+                                    <Link href="/news-details-1" className="read-more">Lire plus <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
-                        </div> */}
-                        {/* News Block */}
-                        {/* <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                        </div>
+
+                        {/* News Block */}                       
+                        <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/news-details"><img src="/images/resource/news-3.jpg" alt="" /></Link></figure>
+                                    <figure className="image"><Link href="/news-details-2"><img src="/images/resource/b-detail-security.jpg" alt="Cybbersecurity" /></Link></figure>
                                 </div>
                                 <div className="content-box">
-                                    <span className="date">20 April</span>
+                                    <span className="date">16 Mai 2025</span>
                                     <ul className="post-info">
                                         <li><i className="fa fa-user-circle" /> by Admin</li>
-                                        <li><i className="fa fa-comments" /> 2 Comments</li>
+                                        {/* <li><i className="fa fa-comments" /> 2 Commentaires</li> */}
                                     </ul>
-                                    <h4 className="title"><Link href="/news-details">Five ways that can develop your business website</Link></h4>
-                                    <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <h4 className="title"><Link href="/news-details-2">La cybernétique : au cœur de l’intelligence des systèmes</Link></h4>
+                                    <Link href="/news-details-2" className="read-more">Lire plus <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
-                        </div> */}
-
-
-
-
+                        </div>
 
                     </div>
                 </div>

@@ -9,10 +9,7 @@ export default function blog() {
         <>
             <Layout headerStyle={2} footerStyle={1}>
                 <PageTitle pageName="Blog" />
-                {/* <Map /> */}
-                <BlogNew  addClass={"pt-5"}/>
-                {/* <TeamDetails/> */}
-                
+                <BlogNew  addClass={"pt-5"}/>                
             </Layout>
         </>
     )

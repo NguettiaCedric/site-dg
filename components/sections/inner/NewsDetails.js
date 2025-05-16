@@ -20,9 +20,9 @@ export default function NewsDetails() {
 						<div className="blog-details__content">
 							<ul className="list-unstyled blog-details__meta">
 								<li><Link href="/news-details"><i className="fas fa-user-circle"></i> Admin</Link> </li>
-								<li><Link href="/news-details"><i className="fas fa-comments"></i> 02
+								{/* <li><Link href="/news-details"><i className="fas fa-comments"></i> 02
 									Commentaires</Link>
-								</li>
+								</li> */}
 							</ul>
 							<h3 className="blog-details__title">Pourquoi passer à SAP S/4HANA ?</h3>
 							<p className="blog-details__text-2">
@@ -53,7 +53,7 @@ export default function NewsDetails() {
 							</div>
 						</div> */}
 						<div className="comment-one">
-							<h3 className="comment-one__title">2 Comments</h3>
+							{/* <h3 className="comment-one__title">2 Comments</h3>
 							<div className="comment-one__single">
 								<div className="comment-one__image"> <img src="images/resource/testi-1.jpg" alt=""/> </div>
 								<div className="comment-one__content">
@@ -75,7 +75,7 @@ export default function NewsDetails() {
 									</p>
 									<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Repondre</span></Link>
 								</div>
-							</div>
+							</div> */}
 							<div className="comment-form">
 								<h3 className="comment-form__title">Laisser un commentaire</h3>
 								<form id="contact_form" name="contact_form" className="" action="" method="get">

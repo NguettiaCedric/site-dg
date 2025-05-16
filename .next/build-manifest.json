@@ -31,6 +31,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/blog.js"
+    ],
+    "/news-details-1": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/news-details-1.js"
     ]
   },
   "ampFirstPages": []
